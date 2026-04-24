@@ -1,0 +1,2959 @@
+{
+  "meta": {
+    "project_id": "stavanger-corridor-market-atlas",
+    "title": "Stavanger Corridor Market Atlas",
+    "description": "Seed graph for a Kumu-inspired actor-centric market atlas spanning Egersund to Rennesøy.",
+    "version": "0.1.0",
+    "updated_at": "2026-04-22",
+    "default_view_id": "overview",
+    "locale": "en",
+    "corridor_description": "Seed actor graph spanning the corridor from Egersund to Rennesøy with public, private, hybrid, institutional, and ecosystem actors."
+  },
+  "nodes": [
+    {
+      "id": "stavanger_kommune",
+      "label": "Stavanger kommune",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "public_services",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "enterprise",
+        "ownership_type": "public",
+        "procurement_regime": "dps",
+        "design_relevance": "high",
+        "ai_relevance": "medium",
+        "software_relevance": "high",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "service_design",
+          "ai_enablement",
+          "software_development",
+          "team_augmentation"
+        ],
+        "likely_buying_modes": [
+          "framework_route",
+          "managed_delivery",
+          "team"
+        ],
+        "opportunity_band": "tier_1",
+        "relationship_status": "known"
+      },
+      "profile": {
+        "summary": "Core public actor for the corridor and a central municipal buyer and ecosystem shaper.",
+        "why_it_matters": "Important both as a direct buyer and as a coordinating public actor in the region.",
+        "relevant_to_olavstoppen": "Important both as a direct buyer and as a coordinating public actor in the region.",
+        "likely_sponsor_roles": [
+          "digitalisation_lead",
+          "service_owner",
+          "procurement"
+        ]
+      },
+      "scores": {
+        "commercial_attractiveness": 88,
+        "short_term_opportunity": 61,
+        "access_difficulty": 72,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "municipality",
+        "public_anchor"
+      ],
+      "source_refs": [
+        "src_stavanger_kommune"
+      ]
+    },
+    {
+      "id": "sandnes_kommune",
+      "label": "Sandnes kommune",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "public_services",
+      "location": {
+        "municipality": "Sandnes",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "large",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "medium",
+        "ai_relevance": "medium",
+        "software_relevance": "medium",
+        "product_relevance": "low",
+        "likely_needs": [
+          "service_design",
+          "software_development",
+          "team_augmentation"
+        ],
+        "likely_buying_modes": [
+          "framework_route",
+          "managed_delivery"
+        ],
+        "opportunity_band": "tier_2",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Major public actor in the corridor with broad service and digitalization surface area.",
+        "why_it_matters": "Relevant as both an owner in inter-municipal structures and a potential direct buyer.",
+        "relevant_to_olavstoppen": "Relevant as both an owner in inter-municipal structures and a potential direct buyer."
+      },
+      "scores": {
+        "commercial_attractiveness": 73,
+        "short_term_opportunity": 48,
+        "access_difficulty": 70,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "municipality"
+      ],
+      "source_refs": [
+        "src_sandnes_kommune"
+      ]
+    },
+    {
+      "id": "sola_kommune",
+      "label": "Sola kommune",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "public_services",
+      "location": {
+        "municipality": "Sola",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "medium",
+        "ai_relevance": "low",
+        "software_relevance": "medium",
+        "product_relevance": "low",
+        "likely_needs": [
+          "service_design",
+          "software_development"
+        ],
+        "likely_buying_modes": [
+          "framework_route",
+          "managed_delivery"
+        ],
+        "opportunity_band": "tier_3",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Public actor with infrastructure-heavy local context and ownership links into regional utilities.",
+        "why_it_matters": "Smaller than Stavanger or Sandnes but strategically relevant through ownership and local growth context.",
+        "relevant_to_olavstoppen": "Smaller than Stavanger or Sandnes but strategically relevant through ownership and local growth context."
+      },
+      "scores": {
+        "commercial_attractiveness": 62,
+        "short_term_opportunity": 39,
+        "access_difficulty": 66,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "municipality"
+      ],
+      "source_refs": [
+        "src_sola_kommune"
+      ]
+    },
+    {
+      "id": "randaberg_kommune",
+      "label": "Randaberg kommune",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "public_services",
+      "location": {
+        "municipality": "Randaberg",
+        "zone": "north_edge"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "low",
+        "ai_relevance": "low",
+        "software_relevance": "medium",
+        "product_relevance": "low",
+        "likely_needs": [
+          "service_design",
+          "software_development"
+        ],
+        "likely_buying_modes": [
+          "framework_route",
+          "managed_delivery"
+        ],
+        "opportunity_band": "tier_4",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Smaller municipal actor with ownership ties into regional infrastructure entities.",
+        "why_it_matters": "Useful for corridor completeness and for understanding public ownership structures.",
+        "relevant_to_olavstoppen": "Useful for corridor completeness and for understanding public ownership structures."
+      },
+      "scores": {
+        "commercial_attractiveness": 49,
+        "short_term_opportunity": 28,
+        "access_difficulty": 63,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "municipality"
+      ],
+      "source_refs": [
+        "src_randaberg_kommune"
+      ]
+    },
+    {
+      "id": "klepp_kommune",
+      "label": "Klepp kommune",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "public_services",
+      "location": {
+        "municipality": "Klepp",
+        "zone": "south_jaeren"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "low",
+        "ai_relevance": "low",
+        "software_relevance": "medium",
+        "product_relevance": "low",
+        "likely_needs": [
+          "service_design",
+          "software_development"
+        ],
+        "likely_buying_modes": [
+          "framework_route"
+        ],
+        "opportunity_band": "tier_4",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Jæren municipality with ownership relevance in regional infrastructure and proximity to industrial and aquaculture actors.",
+        "why_it_matters": "Relevant more as a structural node than as a top-tier direct buyer in the seed set.",
+        "relevant_to_olavstoppen": "Relevant more as a structural node than as a top-tier direct buyer in the seed set."
+      },
+      "scores": {
+        "commercial_attractiveness": 47,
+        "short_term_opportunity": 27,
+        "access_difficulty": 62,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "municipality"
+      ],
+      "source_refs": [
+        "src_klepp_kommune"
+      ]
+    },
+    {
+      "id": "haa_kommune",
+      "label": "Hå kommune",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "public_services",
+      "location": {
+        "municipality": "Hå",
+        "zone": "south_jaeren"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "low",
+        "ai_relevance": "low",
+        "software_relevance": "low",
+        "product_relevance": "low",
+        "likely_needs": [
+          "service_design"
+        ],
+        "likely_buying_modes": [
+          "framework_route"
+        ],
+        "opportunity_band": "watchlist",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Southern Jæren municipality important to corridor coverage and public ownership structures.",
+        "why_it_matters": "Less important as a first-wave buyer, but useful in the public-system view.",
+        "relevant_to_olavstoppen": "Less important as a first-wave buyer, but useful in the public-system view."
+      },
+      "scores": {
+        "commercial_attractiveness": 42,
+        "short_term_opportunity": 23,
+        "access_difficulty": 60,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "municipality"
+      ],
+      "source_refs": [
+        "src_haa_kommune"
+      ]
+    },
+    {
+      "id": "time_kommune",
+      "label": "Time kommune",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "public_services",
+      "location": {
+        "municipality": "Time",
+        "zone": "south_jaeren"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "low",
+        "ai_relevance": "low",
+        "software_relevance": "medium",
+        "product_relevance": "low",
+        "likely_needs": [
+          "service_design",
+          "software_development"
+        ],
+        "likely_buying_modes": [
+          "framework_route"
+        ],
+        "opportunity_band": "watchlist",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Jæren public actor connected to corridor infrastructure ownership and industrial context around Bryne.",
+        "why_it_matters": "Useful as both a place anchor and public-system node.",
+        "relevant_to_olavstoppen": "Useful as both a place anchor and public-system node."
+      },
+      "scores": {
+        "commercial_attractiveness": 45,
+        "short_term_opportunity": 25,
+        "access_difficulty": 61,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "municipality"
+      ],
+      "source_refs": [
+        "src_time_kommune"
+      ]
+    },
+    {
+      "id": "gjesdal_kommune",
+      "label": "Gjesdal kommune",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "public_services",
+      "location": {
+        "municipality": "Gjesdal",
+        "zone": "east_jaeren"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "low",
+        "ai_relevance": "low",
+        "software_relevance": "low",
+        "product_relevance": "low",
+        "likely_needs": [
+          "service_design"
+        ],
+        "likely_buying_modes": [
+          "framework_route"
+        ],
+        "opportunity_band": "watchlist",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Eastern corridor municipality with ownership relevance and regional adjacency.",
+        "why_it_matters": "Primarily a structural public node in the seed.",
+        "relevant_to_olavstoppen": "Primarily a structural public node in the seed."
+      },
+      "scores": {
+        "commercial_attractiveness": 40,
+        "short_term_opportunity": 22,
+        "access_difficulty": 60,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "municipality"
+      ],
+      "source_refs": [
+        "src_gjesdal_kommune"
+      ]
+    },
+    {
+      "id": "bjerkreim_kommune",
+      "label": "Bjerkreim kommune",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "public_services",
+      "location": {
+        "municipality": "Bjerkreim",
+        "zone": "south"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "none",
+        "ai_relevance": "none",
+        "software_relevance": "low",
+        "product_relevance": "none",
+        "likely_needs": [
+          "service_design"
+        ],
+        "likely_buying_modes": [
+          "framework_route"
+        ],
+        "opportunity_band": "watchlist",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Corridor municipality that matters mainly for boundary truth and utility ownership context.",
+        "why_it_matters": "Included to keep the corridor logic honest rather than Stavanger-centric.",
+        "relevant_to_olavstoppen": "Included to keep the corridor logic honest rather than Stavanger-centric."
+      },
+      "scores": {
+        "commercial_attractiveness": 34,
+        "short_term_opportunity": 18,
+        "access_difficulty": 58,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "municipality"
+      ],
+      "source_refs": [
+        "src_bjerkreim_kommune"
+      ]
+    },
+    {
+      "id": "eigersund_kommune",
+      "label": "Eigersund kommune",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "public_services",
+      "location": {
+        "municipality": "Eigersund",
+        "zone": "south"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "low",
+        "ai_relevance": "low",
+        "software_relevance": "low",
+        "product_relevance": "none",
+        "likely_needs": [
+          "service_design",
+          "software_development"
+        ],
+        "likely_buying_modes": [
+          "framework_route"
+        ],
+        "opportunity_band": "watchlist",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Southern boundary municipality and local public anchor for Dalane-facing corridor coverage.",
+        "why_it_matters": "Important for geographic completeness and for south-corridor actor navigation.",
+        "relevant_to_olavstoppen": "Important for geographic completeness and for south-corridor actor navigation."
+      },
+      "scores": {
+        "commercial_attractiveness": 44,
+        "short_term_opportunity": 24,
+        "access_difficulty": 61,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "municipality"
+      ],
+      "source_refs": [
+        "src_eigersund_kommune"
+      ]
+    },
+    {
+      "id": "lyse",
+      "label": "Lyse",
+      "type": "hybrid_entity",
+      "buyer_type": "hybrid",
+      "sector": "energy_telecom",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "enterprise",
+        "ownership_type": "mixed",
+        "procurement_regime": "hybrid",
+        "design_relevance": "high",
+        "ai_relevance": "high",
+        "software_relevance": "high",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "service_design",
+          "ai_enablement",
+          "software_modernization",
+          "development_partner"
+        ],
+        "likely_buying_modes": [
+          "pod",
+          "team",
+          "retained_partner"
+        ],
+        "opportunity_band": "tier_1",
+        "relationship_status": "known"
+      },
+      "profile": {
+        "summary": "Regional energy and telecom group with strong digital surface area and major public ownership ties.",
+        "why_it_matters": "One of the most strategically important hybrid actors in the corridor.",
+        "relevant_to_olavstoppen": "One of the most strategically important hybrid actors in the corridor.",
+        "likely_sponsor_roles": [
+          "business_unit_lead",
+          "digital_lead",
+          "product_lead"
+        ]
+      },
+      "scores": {
+        "commercial_attractiveness": 92,
+        "short_term_opportunity": 68,
+        "access_difficulty": 57,
+        "confidence_level": "high",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "hybrid_anchor",
+        "owner_network"
+      ],
+      "source_refs": [
+        "src_lyse",
+        "src_lyse_owners"
+      ]
+    },
+    {
+      "id": "lyse_marked",
+      "label": "Lyse Marked",
+      "type": "business_unit",
+      "buyer_type": "hybrid",
+      "sector": "customer_platforms",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "mixed",
+        "procurement_regime": "hybrid",
+        "design_relevance": "high",
+        "ai_relevance": "medium",
+        "software_relevance": "high",
+        "product_relevance": "high",
+        "likely_needs": [
+          "design_execution",
+          "software_development",
+          "product_development"
+        ],
+        "likely_buying_modes": [
+          "specialist",
+          "pod",
+          "team"
+        ],
+        "opportunity_band": "tier_1",
+        "relationship_status": "known"
+      },
+      "profile": {
+        "summary": "Customer-facing Lyse unit with explicit responsibility for customer journeys and digital customer surfaces.",
+        "why_it_matters": "Useful seed example of when business-unit modeling is more truthful than parent-only modeling.",
+        "relevant_to_olavstoppen": "Useful seed example of when business-unit modeling is more truthful than parent-only modeling.",
+        "likely_sponsor_roles": [
+          "customer_journey_owner",
+          "digital_product_lead",
+          "data_operations_lead"
+        ]
+      },
+      "scores": {
+        "commercial_attractiveness": 84,
+        "short_term_opportunity": 66,
+        "access_difficulty": 52,
+        "confidence_level": "high",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "business_unit",
+        "customer_surface"
+      ],
+      "source_refs": [
+        "src_lyse_marked"
+      ]
+    },
+    {
+      "id": "ivar_iks",
+      "label": "IVAR IKS",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "water_waste_infrastructure",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "large",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "medium",
+        "ai_relevance": "medium",
+        "software_relevance": "high",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "software_modernization",
+          "ai_enablement",
+          "team_augmentation"
+        ],
+        "likely_buying_modes": [
+          "managed_delivery",
+          "team",
+          "framework_route"
+        ],
+        "opportunity_band": "tier_2",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Inter-municipal infrastructure company for water, wastewater, and waste with multiple owner municipalities.",
+        "why_it_matters": "Important hybrid-like operational context even though the legal logic is public.",
+        "relevant_to_olavstoppen": "Important hybrid-like operational context even though the legal logic is public."
+      },
+      "scores": {
+        "commercial_attractiveness": 78,
+        "short_term_opportunity": 50,
+        "access_difficulty": 69,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "iks",
+        "infrastructure"
+      ],
+      "source_refs": [
+        "src_ivar"
+      ]
+    },
+    {
+      "id": "helse_stavanger",
+      "label": "Helse Stavanger",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "healthcare",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "enterprise",
+        "ownership_type": "public",
+        "procurement_regime": "health_centralized",
+        "design_relevance": "high",
+        "ai_relevance": "high",
+        "software_relevance": "high",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "service_design",
+          "ai_enablement",
+          "software_development",
+          "team_augmentation"
+        ],
+        "likely_buying_modes": [
+          "framework_route",
+          "managed_delivery",
+          "team"
+        ],
+        "opportunity_band": "tier_1",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Major public health actor and one of the most important institutional nodes in the corridor.",
+        "why_it_matters": "High strategic value as both a buyer and a partner node in regional health innovation.",
+        "relevant_to_olavstoppen": "High strategic value as both a buyer and a partner node in regional health innovation.",
+        "likely_sponsor_roles": [
+          "clinical_service_owner",
+          "innovation_lead",
+          "digitalisation_lead"
+        ]
+      },
+      "scores": {
+        "commercial_attractiveness": 90,
+        "short_term_opportunity": 58,
+        "access_difficulty": 82,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "hospital",
+        "public_anchor"
+      ],
+      "source_refs": [
+        "src_helse_stavanger"
+      ]
+    },
+    {
+      "id": "uis",
+      "label": "University of Stavanger",
+      "type": "institution",
+      "buyer_type": "public",
+      "sector": "higher_education_research",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "enterprise",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "medium",
+        "ai_relevance": "high",
+        "software_relevance": "medium",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "innovation_support",
+          "ai_enablement",
+          "software_development"
+        ],
+        "likely_buying_modes": [
+          "managed_delivery",
+          "framework_route"
+        ],
+        "opportunity_band": "tier_2",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Regional university and one of the strongest institutional connectors in the corridor.",
+        "why_it_matters": "Important both as a potential buyer and as a hub connecting health, energy, and entrepreneurship.",
+        "relevant_to_olavstoppen": "Important both as a potential buyer and as a hub connecting health, energy, and entrepreneurship."
+      },
+      "scores": {
+        "commercial_attractiveness": 76,
+        "short_term_opportunity": 46,
+        "access_difficulty": 74,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "institution",
+        "knowledge_hub"
+      ],
+      "source_refs": [
+        "src_uis"
+      ]
+    },
+    {
+      "id": "norce",
+      "label": "NORCE",
+      "type": "institution",
+      "buyer_type": "public",
+      "sector": "research",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "large",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "medium",
+        "ai_relevance": "high",
+        "software_relevance": "medium",
+        "product_relevance": "low",
+        "likely_needs": [
+          "innovation_support",
+          "ai_enablement"
+        ],
+        "likely_buying_modes": [
+          "managed_delivery",
+          "framework_route"
+        ],
+        "opportunity_band": "tier_3",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Applied research actor with strong relevance where research, technology, and public-sector collaboration meet.",
+        "why_it_matters": "Important as an ecosystem connector and collaboration node, with selective direct-buyer potential.",
+        "relevant_to_olavstoppen": "Important as an ecosystem connector and collaboration node, with selective direct-buyer potential."
+      },
+      "scores": {
+        "commercial_attractiveness": 64,
+        "short_term_opportunity": 34,
+        "access_difficulty": 72,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "institution",
+        "research"
+      ],
+      "source_refs": [
+        "src_norce",
+        "src_uis_norce_health"
+      ]
+    },
+    {
+      "id": "valide",
+      "label": "Validé",
+      "type": "ecosystem_actor",
+      "buyer_type": "channel",
+      "sector": "innovation_support",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "mixed",
+        "procurement_regime": "hybrid",
+        "design_relevance": "medium",
+        "ai_relevance": "medium",
+        "software_relevance": "medium",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "innovation_support",
+          "product_development"
+        ],
+        "likely_buying_modes": [
+          "specialist",
+          "pod"
+        ],
+        "opportunity_band": "tier_2",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Non-profit innovation company and early-stage commercialization actor with strong regional reach.",
+        "why_it_matters": "Not primarily a large direct buyer, but strategically valuable as a route-to-market and ecosystem node.",
+        "relevant_to_olavstoppen": "Not primarily a large direct buyer, but strategically valuable as a route-to-market and ecosystem node.",
+        "likely_sponsor_roles": [
+          "program_lead",
+          "innovation_director"
+        ]
+      },
+      "scores": {
+        "commercial_attractiveness": 67,
+        "short_term_opportunity": 52,
+        "access_difficulty": 34,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "ecosystem",
+        "channel"
+      ],
+      "source_refs": [
+        "src_valide"
+      ]
+    },
+    {
+      "id": "nscc",
+      "label": "Norwegian Smart Care Cluster",
+      "type": "cluster",
+      "buyer_type": "channel",
+      "sector": "digital_health_cluster",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "mixed",
+        "procurement_regime": "hybrid",
+        "design_relevance": "high",
+        "ai_relevance": "high",
+        "software_relevance": "medium",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "innovation_support",
+          "service_design",
+          "product_development"
+        ],
+        "likely_buying_modes": [
+          "specialist",
+          "pod"
+        ],
+        "opportunity_band": "tier_2",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Health technology cluster with national reach and a base in Stavanger.",
+        "why_it_matters": "Valuable as a channel and a network surface rather than as a large direct buyer.",
+        "relevant_to_olavstoppen": "Valuable as a channel and a network surface rather than as a large direct buyer."
+      },
+      "scores": {
+        "commercial_attractiveness": 63,
+        "short_term_opportunity": 49,
+        "access_difficulty": 31,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "cluster",
+        "channel"
+      ],
+      "source_refs": [
+        "src_nscc"
+      ]
+    },
+    {
+      "id": "nordic_edge",
+      "label": "Nordic Edge",
+      "type": "ecosystem_actor",
+      "buyer_type": "channel",
+      "sector": "smart_city_innovation",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "mixed",
+        "procurement_regime": "hybrid",
+        "design_relevance": "high",
+        "ai_relevance": "medium",
+        "software_relevance": "medium",
+        "product_relevance": "low",
+        "likely_needs": [
+          "innovation_support",
+          "strategic_design",
+          "service_design"
+        ],
+        "likely_buying_modes": [
+          "pod",
+          "managed_delivery"
+        ],
+        "opportunity_band": "tier_2",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Innovation and cluster actor focused on smarter and more sustainable cities and communities.",
+        "why_it_matters": "Strategically useful as an ecosystem hub, especially around public/private collaboration and urban innovation.",
+        "relevant_to_olavstoppen": "Strategically useful as an ecosystem hub, especially around public/private collaboration and urban innovation."
+      },
+      "scores": {
+        "commercial_attractiveness": 61,
+        "short_term_opportunity": 43,
+        "access_difficulty": 33,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "ecosystem",
+        "channel"
+      ],
+      "source_refs": [
+        "src_nordic_edge"
+      ]
+    },
+    {
+      "id": "naeringsforeningen",
+      "label": "Næringsforeningen i Stavanger-regionen",
+      "type": "ecosystem_actor",
+      "buyer_type": "channel",
+      "sector": "business_association",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "mixed",
+        "procurement_regime": "hybrid",
+        "design_relevance": "low",
+        "ai_relevance": "low",
+        "software_relevance": "low",
+        "product_relevance": "low",
+        "likely_needs": [
+          "innovation_support"
+        ],
+        "likely_buying_modes": [
+          "specialist"
+        ],
+        "opportunity_band": "tier_3",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Regional business association and convener spanning Dalane to Ryfylke.",
+        "why_it_matters": "Important as a visibility, access, and ecosystem sensemaking node.",
+        "relevant_to_olavstoppen": "Important as a visibility, access, and ecosystem sensemaking node."
+      },
+      "scores": {
+        "commercial_attractiveness": 56,
+        "short_term_opportunity": 40,
+        "access_difficulty": 28,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "ecosystem",
+        "channel"
+      ],
+      "source_refs": [
+        "src_naeringsforeningen"
+      ]
+    },
+    {
+      "id": "norwegian_offshore_wind",
+      "label": "Norwegian Offshore Wind",
+      "type": "cluster",
+      "buyer_type": "channel",
+      "sector": "offshore_wind_cluster",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "mixed",
+        "procurement_regime": "hybrid",
+        "design_relevance": "medium",
+        "ai_relevance": "medium",
+        "software_relevance": "medium",
+        "product_relevance": "low",
+        "likely_needs": [
+          "innovation_support",
+          "strategic_design"
+        ],
+        "likely_buying_modes": [
+          "specialist",
+          "pod"
+        ],
+        "opportunity_band": "tier_3",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Offshore wind industry network with a Stavanger office and strong relevance to energy-transition supply chains.",
+        "why_it_matters": "Useful as a channel and cluster lens for transition-oriented actors, even though its headquarters sit outside the corridor.",
+        "relevant_to_olavstoppen": "Useful as a channel and cluster lens for transition-oriented actors, even though its headquarters sit outside the corridor.",
+        "notes": [
+          "Main office is in Haugesund; node is included for corridor relevance via Stavanger office."
+        ]
+      },
+      "scores": {
+        "commercial_attractiveness": 58,
+        "short_term_opportunity": 37,
+        "access_difficulty": 35,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "cluster",
+        "energy_transition"
+      ],
+      "source_refs": [
+        "src_now"
+      ]
+    },
+    {
+      "id": "helsecampus_stavanger",
+      "label": "HelseCampus Stavanger",
+      "type": "ecosystem_actor",
+      "buyer_type": "channel",
+      "sector": "health_innovation_arena",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "mixed",
+        "procurement_regime": "hybrid",
+        "design_relevance": "high",
+        "ai_relevance": "high",
+        "software_relevance": "medium",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "innovation_support",
+          "service_design",
+          "ai_enablement"
+        ],
+        "likely_buying_modes": [
+          "pod",
+          "managed_delivery"
+        ],
+        "opportunity_band": "tier_2",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Health innovation and co-creation arena linking academia, healthcare providers, public actors, and industry.",
+        "why_it_matters": "A highly informative seed node because it makes regional health-innovation relationships visible.",
+        "relevant_to_olavstoppen": "A highly informative seed node because it makes regional health-innovation relationships visible."
+      },
+      "scores": {
+        "commercial_attractiveness": 69,
+        "short_term_opportunity": 51,
+        "access_difficulty": 26,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "ecosystem",
+        "health"
+      ],
+      "source_refs": [
+        "src_healthcampus"
+      ]
+    },
+    {
+      "id": "laerdal_medical",
+      "label": "Laerdal Medical",
+      "type": "organization",
+      "buyer_type": "private",
+      "sector": "health_technology",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "enterprise",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "high",
+        "ai_relevance": "medium",
+        "software_relevance": "high",
+        "product_relevance": "high",
+        "likely_needs": [
+          "design_execution",
+          "product_development",
+          "software_development"
+        ],
+        "likely_buying_modes": [
+          "specialist",
+          "pod",
+          "team"
+        ],
+        "opportunity_band": "tier_1",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Global health-technology company with headquarters in Stavanger and strong product-development depth.",
+        "why_it_matters": "One of the corridor’s clearest product and design-relevant private actors.",
+        "relevant_to_olavstoppen": "One of the corridor’s clearest product and design-relevant private actors.",
+        "likely_sponsor_roles": [
+          "product_lead",
+          "design_lead",
+          "digital_lead"
+        ]
+      },
+      "scores": {
+        "commercial_attractiveness": 86,
+        "short_term_opportunity": 60,
+        "access_difficulty": 46,
+        "confidence_level": "high",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "private_anchor",
+        "healthtech"
+      ],
+      "source_refs": [
+        "src_laerdal"
+      ]
+    },
+    {
+      "id": "zaptec",
+      "label": "Zaptec",
+      "type": "organization",
+      "buyer_type": "growth",
+      "sector": "electrification_products",
+      "location": {
+        "municipality": "Sandnes",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "large",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "high",
+        "ai_relevance": "medium",
+        "software_relevance": "high",
+        "product_relevance": "high",
+        "likely_needs": [
+          "design_execution",
+          "product_development",
+          "software_development"
+        ],
+        "likely_buying_modes": [
+          "specialist",
+          "pod",
+          "team"
+        ],
+        "opportunity_band": "tier_1",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Fast-moving charging technology company with strong product and design surface area.",
+        "why_it_matters": "A good example of a growth/product-led actor that may move faster than larger incumbents.",
+        "relevant_to_olavstoppen": "A good example of a growth/product-led actor that may move faster than larger incumbents.",
+        "likely_sponsor_roles": [
+          "cto",
+          "product_lead",
+          "design_lead"
+        ]
+      },
+      "scores": {
+        "commercial_attractiveness": 82,
+        "short_term_opportunity": 67,
+        "access_difficulty": 35,
+        "confidence_level": "high",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "growth",
+        "product_company"
+      ],
+      "source_refs": [
+        "src_zaptec",
+        "src_zaptec_contact"
+      ]
+    },
+    {
+      "id": "aarbakke_innovation",
+      "label": "Aarbakke Innovation",
+      "type": "organization",
+      "buyer_type": "private",
+      "sector": "industrial_engineering",
+      "location": {
+        "municipality": "Time",
+        "zone": "south_jaeren"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "medium",
+        "ai_relevance": "medium",
+        "software_relevance": "medium",
+        "product_relevance": "high",
+        "likely_needs": [
+          "product_development",
+          "innovation_support",
+          "software_development"
+        ],
+        "likely_buying_modes": [
+          "specialist",
+          "pod"
+        ],
+        "opportunity_band": "tier_2",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Independent engineering and product-development actor in Bryne with energy-sector roots.",
+        "why_it_matters": "Relevant because it bridges engineering, product development, and industrial problem solving.",
+        "relevant_to_olavstoppen": "Relevant because it bridges engineering, product development, and industrial problem solving.",
+        "likely_sponsor_roles": [
+          "managing_director",
+          "head_of_technologies"
+        ]
+      },
+      "scores": {
+        "commercial_attractiveness": 71,
+        "short_term_opportunity": 56,
+        "access_difficulty": 29,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "industrial",
+        "jaeren"
+      ],
+      "source_refs": [
+        "src_aarbakke",
+        "src_aarbakke_about"
+      ]
+    },
+    {
+      "id": "akva_group",
+      "label": "AKVA group",
+      "type": "organization",
+      "buyer_type": "private",
+      "sector": "aquaculture_technology",
+      "location": {
+        "municipality": "Klepp",
+        "zone": "south_jaeren"
+      },
+      "attributes": {
+        "size_band": "large",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "medium",
+        "ai_relevance": "medium",
+        "software_relevance": "high",
+        "product_relevance": "high",
+        "likely_needs": [
+          "software_development",
+          "product_development",
+          "ai_enablement"
+        ],
+        "likely_buying_modes": [
+          "pod",
+          "team",
+          "retained_partner"
+        ],
+        "opportunity_band": "tier_1",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Global aquaculture technology company with headquarters in Klepp.",
+        "why_it_matters": "Strategically relevant because it sits at the intersection of industrial systems, software, and product development.",
+        "relevant_to_olavstoppen": "Strategically relevant because it sits at the intersection of industrial systems, software, and product development."
+      },
+      "scores": {
+        "commercial_attractiveness": 80,
+        "short_term_opportunity": 55,
+        "access_difficulty": 41,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "aquaculture",
+        "industrial_tech"
+      ],
+      "source_refs": [
+        "src_akva",
+        "src_akva_offices"
+      ]
+    },
+    {
+      "id": "egersund_net",
+      "label": "Egersund Net",
+      "type": "organization",
+      "buyer_type": "private",
+      "sector": "aquaculture_equipment",
+      "location": {
+        "municipality": "Eigersund",
+        "zone": "south"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "low",
+        "ai_relevance": "low",
+        "software_relevance": "medium",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "software_modernization",
+          "product_development"
+        ],
+        "likely_buying_modes": [
+          "specialist",
+          "pod"
+        ],
+        "opportunity_band": "tier_3",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Egersund-based group company associated with AKVA group’s office network and the southern corridor edge.",
+        "why_it_matters": "Useful seed example of a corridor actor that is meaningful both geographically and structurally.",
+        "relevant_to_olavstoppen": "Useful seed example of a corridor actor that is meaningful both geographically and structurally."
+      },
+      "scores": {
+        "commercial_attractiveness": 58,
+        "short_term_opportunity": 35,
+        "access_difficulty": 33,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "south_corridor",
+        "subsidiary"
+      ],
+      "source_refs": [
+        "src_akva_offices"
+      ]
+    },
+    {
+      "id": "var_energi",
+      "label": "Vår Energi",
+      "type": "organization",
+      "buyer_type": "private",
+      "sector": "energy",
+      "location": {
+        "municipality": "Sandnes",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "enterprise",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "medium",
+        "ai_relevance": "high",
+        "software_relevance": "high",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "ai_enablement",
+          "software_modernization",
+          "team_augmentation"
+        ],
+        "likely_buying_modes": [
+          "specialist",
+          "pod",
+          "team"
+        ],
+        "opportunity_band": "tier_1",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Large energy company with a major Forus office and substantial operational complexity.",
+        "why_it_matters": "A structurally important enterprise account with likely need for digital, product, and workflow modernization.",
+        "relevant_to_olavstoppen": "A structurally important enterprise account with likely need for digital, product, and workflow modernization.",
+        "likely_sponsor_roles": [
+          "digital_lead",
+          "operations_lead",
+          "innovation_lead"
+        ]
+      },
+      "scores": {
+        "commercial_attractiveness": 87,
+        "short_term_opportunity": 59,
+        "access_difficulty": 55,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "energy",
+        "enterprise"
+      ],
+      "source_refs": [
+        "src_var_energi",
+        "src_var_energi_contact"
+      ]
+    },
+    {
+      "id": "odfjell_drilling",
+      "label": "Odfjell Drilling",
+      "type": "organization",
+      "buyer_type": "private",
+      "sector": "energy_services",
+      "location": {
+        "municipality": "Sola",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "enterprise",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "low",
+        "ai_relevance": "medium",
+        "software_relevance": "medium",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "software_modernization",
+          "ai_enablement",
+          "innovation_support"
+        ],
+        "likely_buying_modes": [
+          "specialist",
+          "pod",
+          "team"
+        ],
+        "opportunity_band": "tier_2",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Energy-services actor with Norway operations in Tananger and a strong technology and efficiency narrative.",
+        "why_it_matters": "Relevant where advanced operations, digital workflows, and transition-linked modernization intersect.",
+        "relevant_to_olavstoppen": "Relevant where advanced operations, digital workflows, and transition-linked modernization intersect."
+      },
+      "scores": {
+        "commercial_attractiveness": 75,
+        "short_term_opportunity": 45,
+        "access_difficulty": 49,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "energy_services",
+        "tananger"
+      ],
+      "source_refs": [
+        "src_odfjell",
+        "src_odfjell_norway"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "lyse_operates_in",
+      "source": "lyse",
+      "target": "stavanger_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_lyse"
+      ]
+    },
+    {
+      "id": "lyse_marked_operates_in",
+      "source": "lyse_marked",
+      "target": "stavanger_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_lyse_marked"
+      ]
+    },
+    {
+      "id": "ivar_iks_operates_in",
+      "source": "ivar_iks",
+      "target": "stavanger_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_ivar"
+      ]
+    },
+    {
+      "id": "helse_stavanger_operates_in",
+      "source": "helse_stavanger",
+      "target": "stavanger_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_helse_stavanger"
+      ]
+    },
+    {
+      "id": "uis_operates_in",
+      "source": "uis",
+      "target": "stavanger_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_uis"
+      ]
+    },
+    {
+      "id": "norce_operates_in",
+      "source": "norce",
+      "target": "stavanger_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_norce"
+      ]
+    },
+    {
+      "id": "valide_operates_in",
+      "source": "valide",
+      "target": "stavanger_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_valide"
+      ]
+    },
+    {
+      "id": "nscc_operates_in",
+      "source": "nscc",
+      "target": "stavanger_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_nscc"
+      ]
+    },
+    {
+      "id": "nordic_edge_operates_in",
+      "source": "nordic_edge",
+      "target": "stavanger_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_nordic_edge"
+      ]
+    },
+    {
+      "id": "naeringsforeningen_operates_in",
+      "source": "naeringsforeningen",
+      "target": "stavanger_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_naeringsforeningen"
+      ]
+    },
+    {
+      "id": "norwegian_offshore_wind_operates_in",
+      "source": "norwegian_offshore_wind",
+      "target": "stavanger_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_now"
+      ]
+    },
+    {
+      "id": "helsecampus_stavanger_operates_in",
+      "source": "helsecampus_stavanger",
+      "target": "stavanger_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_healthcampus"
+      ]
+    },
+    {
+      "id": "laerdal_medical_operates_in",
+      "source": "laerdal_medical",
+      "target": "stavanger_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_laerdal"
+      ]
+    },
+    {
+      "id": "zaptec_operates_in",
+      "source": "zaptec",
+      "target": "sandnes_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_zaptec"
+      ]
+    },
+    {
+      "id": "aarbakke_innovation_operates_in",
+      "source": "aarbakke_innovation",
+      "target": "time_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_aarbakke"
+      ]
+    },
+    {
+      "id": "akva_group_operates_in",
+      "source": "akva_group",
+      "target": "klepp_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_akva"
+      ]
+    },
+    {
+      "id": "egersund_net_operates_in",
+      "source": "egersund_net",
+      "target": "eigersund_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_akva_offices"
+      ]
+    },
+    {
+      "id": "var_energi_operates_in",
+      "source": "var_energi",
+      "target": "sandnes_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_var_energi"
+      ]
+    },
+    {
+      "id": "odfjell_drilling_operates_in",
+      "source": "odfjell_drilling",
+      "target": "sola_kommune",
+      "type": "operates_in",
+      "label": "operates_in",
+      "directed": true,
+      "strength": 0.85,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "geography"
+      ],
+      "source_refs": [
+        "src_odfjell"
+      ]
+    },
+    {
+      "id": "stavanger_kommune_owns_lyse",
+      "source": "stavanger_kommune",
+      "target": "lyse",
+      "type": "ownership",
+      "label": "owner_municipality",
+      "directed": true,
+      "strength": 0.9,
+      "attributes": {
+        "confidence_level": "high",
+        "notes": [
+          "One of Lyse’s owner municipalities."
+        ]
+      },
+      "tags": [
+        "ownership",
+        "public_to_hybrid"
+      ],
+      "source_refs": [
+        "src_lyse_owners"
+      ]
+    },
+    {
+      "id": "sandnes_kommune_owns_lyse",
+      "source": "sandnes_kommune",
+      "target": "lyse",
+      "type": "ownership",
+      "label": "owner_municipality",
+      "directed": true,
+      "strength": 0.9,
+      "attributes": {
+        "confidence_level": "high",
+        "notes": [
+          "One of Lyse’s owner municipalities."
+        ]
+      },
+      "tags": [
+        "ownership",
+        "public_to_hybrid"
+      ],
+      "source_refs": [
+        "src_lyse_owners"
+      ]
+    },
+    {
+      "id": "sola_kommune_owns_lyse",
+      "source": "sola_kommune",
+      "target": "lyse",
+      "type": "ownership",
+      "label": "owner_municipality",
+      "directed": true,
+      "strength": 0.9,
+      "attributes": {
+        "confidence_level": "high",
+        "notes": [
+          "One of Lyse’s owner municipalities."
+        ]
+      },
+      "tags": [
+        "ownership",
+        "public_to_hybrid"
+      ],
+      "source_refs": [
+        "src_lyse_owners"
+      ]
+    },
+    {
+      "id": "time_kommune_owns_lyse",
+      "source": "time_kommune",
+      "target": "lyse",
+      "type": "ownership",
+      "label": "owner_municipality",
+      "directed": true,
+      "strength": 0.9,
+      "attributes": {
+        "confidence_level": "high",
+        "notes": [
+          "One of Lyse’s owner municipalities."
+        ]
+      },
+      "tags": [
+        "ownership",
+        "public_to_hybrid"
+      ],
+      "source_refs": [
+        "src_lyse_owners"
+      ]
+    },
+    {
+      "id": "klepp_kommune_owns_lyse",
+      "source": "klepp_kommune",
+      "target": "lyse",
+      "type": "ownership",
+      "label": "owner_municipality",
+      "directed": true,
+      "strength": 0.9,
+      "attributes": {
+        "confidence_level": "high",
+        "notes": [
+          "One of Lyse’s owner municipalities."
+        ]
+      },
+      "tags": [
+        "ownership",
+        "public_to_hybrid"
+      ],
+      "source_refs": [
+        "src_lyse_owners"
+      ]
+    },
+    {
+      "id": "haa_kommune_owns_lyse",
+      "source": "haa_kommune",
+      "target": "lyse",
+      "type": "ownership",
+      "label": "owner_municipality",
+      "directed": true,
+      "strength": 0.9,
+      "attributes": {
+        "confidence_level": "high",
+        "notes": [
+          "One of Lyse’s owner municipalities."
+        ]
+      },
+      "tags": [
+        "ownership",
+        "public_to_hybrid"
+      ],
+      "source_refs": [
+        "src_lyse_owners"
+      ]
+    },
+    {
+      "id": "randaberg_kommune_owns_lyse",
+      "source": "randaberg_kommune",
+      "target": "lyse",
+      "type": "ownership",
+      "label": "owner_municipality",
+      "directed": true,
+      "strength": 0.9,
+      "attributes": {
+        "confidence_level": "high",
+        "notes": [
+          "One of Lyse’s owner municipalities."
+        ]
+      },
+      "tags": [
+        "ownership",
+        "public_to_hybrid"
+      ],
+      "source_refs": [
+        "src_lyse_owners"
+      ]
+    },
+    {
+      "id": "eigersund_kommune_owns_lyse",
+      "source": "eigersund_kommune",
+      "target": "lyse",
+      "type": "ownership",
+      "label": "owner_municipality",
+      "directed": true,
+      "strength": 0.9,
+      "attributes": {
+        "confidence_level": "high",
+        "notes": [
+          "One of Lyse’s owner municipalities."
+        ]
+      },
+      "tags": [
+        "ownership",
+        "public_to_hybrid"
+      ],
+      "source_refs": [
+        "src_lyse_owners"
+      ]
+    },
+    {
+      "id": "gjesdal_kommune_owns_lyse",
+      "source": "gjesdal_kommune",
+      "target": "lyse",
+      "type": "ownership",
+      "label": "owner_municipality",
+      "directed": true,
+      "strength": 0.9,
+      "attributes": {
+        "confidence_level": "high",
+        "notes": [
+          "One of Lyse’s owner municipalities."
+        ]
+      },
+      "tags": [
+        "ownership",
+        "public_to_hybrid"
+      ],
+      "source_refs": [
+        "src_lyse_owners"
+      ]
+    },
+    {
+      "id": "bjerkreim_kommune_owns_lyse",
+      "source": "bjerkreim_kommune",
+      "target": "lyse",
+      "type": "ownership",
+      "label": "owner_municipality",
+      "directed": true,
+      "strength": 0.9,
+      "attributes": {
+        "confidence_level": "high",
+        "notes": [
+          "One of Lyse’s owner municipalities."
+        ]
+      },
+      "tags": [
+        "ownership",
+        "public_to_hybrid"
+      ],
+      "source_refs": [
+        "src_lyse_owners"
+      ]
+    },
+    {
+      "id": "stavanger_kommune_owns_ivar",
+      "source": "stavanger_kommune",
+      "target": "ivar_iks",
+      "type": "ownership",
+      "label": "owner_municipality",
+      "directed": true,
+      "strength": 0.92,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "ownership",
+        "public_to_public"
+      ],
+      "source_refs": [
+        "src_ivar"
+      ]
+    },
+    {
+      "id": "sandnes_kommune_owns_ivar",
+      "source": "sandnes_kommune",
+      "target": "ivar_iks",
+      "type": "ownership",
+      "label": "owner_municipality",
+      "directed": true,
+      "strength": 0.92,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "ownership",
+        "public_to_public"
+      ],
+      "source_refs": [
+        "src_ivar"
+      ]
+    },
+    {
+      "id": "sola_kommune_owns_ivar",
+      "source": "sola_kommune",
+      "target": "ivar_iks",
+      "type": "ownership",
+      "label": "owner_municipality",
+      "directed": true,
+      "strength": 0.92,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "ownership",
+        "public_to_public"
+      ],
+      "source_refs": [
+        "src_ivar"
+      ]
+    },
+    {
+      "id": "randaberg_kommune_owns_ivar",
+      "source": "randaberg_kommune",
+      "target": "ivar_iks",
+      "type": "ownership",
+      "label": "owner_municipality",
+      "directed": true,
+      "strength": 0.92,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "ownership",
+        "public_to_public"
+      ],
+      "source_refs": [
+        "src_ivar"
+      ]
+    },
+    {
+      "id": "klepp_kommune_owns_ivar",
+      "source": "klepp_kommune",
+      "target": "ivar_iks",
+      "type": "ownership",
+      "label": "owner_municipality",
+      "directed": true,
+      "strength": 0.92,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "ownership",
+        "public_to_public"
+      ],
+      "source_refs": [
+        "src_ivar"
+      ]
+    },
+    {
+      "id": "haa_kommune_owns_ivar",
+      "source": "haa_kommune",
+      "target": "ivar_iks",
+      "type": "ownership",
+      "label": "owner_municipality",
+      "directed": true,
+      "strength": 0.92,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "ownership",
+        "public_to_public"
+      ],
+      "source_refs": [
+        "src_ivar"
+      ]
+    },
+    {
+      "id": "time_kommune_owns_ivar",
+      "source": "time_kommune",
+      "target": "ivar_iks",
+      "type": "ownership",
+      "label": "owner_municipality",
+      "directed": true,
+      "strength": 0.92,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "ownership",
+        "public_to_public"
+      ],
+      "source_refs": [
+        "src_ivar"
+      ]
+    },
+    {
+      "id": "gjesdal_kommune_owns_ivar",
+      "source": "gjesdal_kommune",
+      "target": "ivar_iks",
+      "type": "ownership",
+      "label": "owner_municipality",
+      "directed": true,
+      "strength": 0.92,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "ownership",
+        "public_to_public"
+      ],
+      "source_refs": [
+        "src_ivar"
+      ]
+    },
+    {
+      "id": "lyse_marked_subsidiary_of_lyse",
+      "source": "lyse_marked",
+      "target": "lyse",
+      "type": "subsidiary_of",
+      "label": "subsidiary_of",
+      "directed": true,
+      "strength": 0.95,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "structure",
+        "business_unit"
+      ],
+      "source_refs": [
+        "src_lyse_marked"
+      ]
+    },
+    {
+      "id": "egersund_net_subsidiary_of_akva_group",
+      "source": "egersund_net",
+      "target": "akva_group",
+      "type": "subsidiary_of",
+      "label": "subsidiary_of",
+      "directed": true,
+      "strength": 0.8,
+      "attributes": {
+        "confidence_level": "medium",
+        "notes": [
+          "Modeled as a group-company relationship based on AKVA group office structure."
+        ]
+      },
+      "tags": [
+        "structure"
+      ],
+      "source_refs": [
+        "src_akva_offices"
+      ]
+    },
+    {
+      "id": "uis_collaborates_with_norce",
+      "source": "uis",
+      "target": "norce",
+      "type": "collaborates_with",
+      "label": "health_research_collaboration",
+      "directed": false,
+      "strength": 0.84,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "health",
+        "research"
+      ],
+      "source_refs": [
+        "src_uis_norce_health"
+      ]
+    },
+    {
+      "id": "nscc_partner_of_valide",
+      "source": "nscc",
+      "target": "valide",
+      "type": "partner_of",
+      "label": "cluster_run_by",
+      "directed": false,
+      "strength": 0.88,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "cluster",
+        "ecosystem"
+      ],
+      "source_refs": [
+        "src_nscc"
+      ]
+    },
+    {
+      "id": "stavanger_kommune_partner_of_helsecampus",
+      "source": "stavanger_kommune",
+      "target": "helsecampus_stavanger",
+      "type": "partner_of",
+      "label": "helsecampus_partner",
+      "directed": false,
+      "strength": 0.86,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "health",
+        "ecosystem"
+      ],
+      "source_refs": [
+        "src_healthcampus"
+      ]
+    },
+    {
+      "id": "uis_partner_of_helsecampus",
+      "source": "uis",
+      "target": "helsecampus_stavanger",
+      "type": "partner_of",
+      "label": "helsecampus_partner",
+      "directed": false,
+      "strength": 0.86,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "health",
+        "ecosystem"
+      ],
+      "source_refs": [
+        "src_healthcampus"
+      ]
+    },
+    {
+      "id": "helse_stavanger_partner_of_helsecampus",
+      "source": "helse_stavanger",
+      "target": "helsecampus_stavanger",
+      "type": "partner_of",
+      "label": "helsecampus_partner",
+      "directed": false,
+      "strength": 0.86,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "health",
+        "ecosystem"
+      ],
+      "source_refs": [
+        "src_healthcampus"
+      ]
+    },
+    {
+      "id": "laerdal_medical_partner_of_helsecampus",
+      "source": "laerdal_medical",
+      "target": "helsecampus_stavanger",
+      "type": "partner_of",
+      "label": "helsecampus_partner",
+      "directed": false,
+      "strength": 0.86,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "health",
+        "ecosystem"
+      ],
+      "source_refs": [
+        "src_healthcampus"
+      ]
+    },
+    {
+      "id": "norce_partner_of_helsecampus",
+      "source": "norce",
+      "target": "helsecampus_stavanger",
+      "type": "partner_of",
+      "label": "helsecampus_partner",
+      "directed": false,
+      "strength": 0.86,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "health",
+        "ecosystem"
+      ],
+      "source_refs": [
+        "src_healthcampus"
+      ]
+    },
+    {
+      "id": "valide_partner_of_helsecampus",
+      "source": "valide",
+      "target": "helsecampus_stavanger",
+      "type": "partner_of",
+      "label": "helsecampus_partner",
+      "directed": false,
+      "strength": 0.86,
+      "attributes": {
+        "confidence_level": "high"
+      },
+      "tags": [
+        "health",
+        "ecosystem"
+      ],
+      "source_refs": [
+        "src_healthcampus"
+      ]
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "label": "Market overview",
+      "description": "Default actor map spanning public, private, hybrid, and ecosystem actors.",
+      "node_filters": [],
+      "edge_filters": [],
+      "style": {
+        "node_color_by": "buyer_type",
+        "node_size_by": "scores.commercial_attractiveness",
+        "node_shape_by": "type",
+        "label_mode": "focused",
+        "edge_visibility": "strong_only",
+        "show_legend": true,
+        "show_geo_overlay": false
+      },
+      "defaults": {
+        "focus_hops": 1,
+        "show_profile_on_click": true,
+        "hide_weak_edges_below": 0.35
+      },
+      "layout_preset_id": "layout_force_default"
+    },
+    {
+      "id": "private_buyers",
+      "label": "Private buyers",
+      "description": "Private and growth companies only.",
+      "node_filters": [
+        {
+          "field": "buyer_type",
+          "operator": "in",
+          "value": [
+            "private",
+            "growth"
+          ]
+        }
+      ],
+      "edge_filters": [],
+      "style": {
+        "node_color_by": "sector",
+        "node_size_by": "scores.short_term_opportunity",
+        "node_shape_by": "type",
+        "label_mode": "focused",
+        "edge_visibility": "focused_only",
+        "show_legend": true,
+        "show_geo_overlay": false
+      },
+      "defaults": {
+        "focus_hops": 1,
+        "show_profile_on_click": true,
+        "hide_weak_edges_below": 0.4
+      },
+      "layout_preset_id": "layout_force_default"
+    },
+    {
+      "id": "public_and_hybrid",
+      "label": "Public and hybrid",
+      "description": "Public, institutional, and hybrid actors.",
+      "node_filters": [
+        {
+          "field": "buyer_type",
+          "operator": "in",
+          "value": [
+            "public",
+            "hybrid"
+          ]
+        }
+      ],
+      "edge_filters": [],
+      "style": {
+        "node_color_by": "attributes.procurement_regime",
+        "node_size_by": "scores.access_difficulty",
+        "node_shape_by": "type",
+        "label_mode": "focused",
+        "edge_visibility": "strong_only",
+        "show_legend": true,
+        "show_geo_overlay": false
+      },
+      "defaults": {
+        "focus_hops": 1,
+        "show_profile_on_click": true,
+        "hide_weak_edges_below": 0.35
+      },
+      "layout_preset_id": "layout_force_default"
+    },
+    {
+      "id": "ecosystem_hubs",
+      "label": "Ecosystem hubs",
+      "description": "Clusters, ecosystem actors, and institutions.",
+      "node_filters": [
+        {
+          "field": "type",
+          "operator": "in",
+          "value": [
+            "ecosystem_actor",
+            "cluster",
+            "institution"
+          ]
+        }
+      ],
+      "edge_filters": [],
+      "style": {
+        "node_color_by": "type",
+        "node_size_by": "scores.commercial_attractiveness",
+        "node_shape_by": "type",
+        "label_mode": "all",
+        "edge_visibility": "all",
+        "show_legend": true,
+        "show_geo_overlay": false
+      },
+      "defaults": {
+        "focus_hops": 2,
+        "show_profile_on_click": true,
+        "hide_weak_edges_below": 0.2
+      },
+      "layout_preset_id": "layout_ecosystem"
+    },
+    {
+      "id": "design_relevant",
+      "label": "Design relevant",
+      "description": "Actors where design relevance is high.",
+      "node_filters": [
+        {
+          "field": "attributes.design_relevance",
+          "operator": "eq",
+          "value": "high"
+        }
+      ],
+      "edge_filters": [],
+      "style": {
+        "node_color_by": "buyer_type",
+        "node_size_by": "scores.short_term_opportunity",
+        "node_shape_by": "type",
+        "label_mode": "focused",
+        "edge_visibility": "focused_only",
+        "show_legend": true,
+        "show_geo_overlay": false
+      },
+      "defaults": {
+        "focus_hops": 1,
+        "show_profile_on_click": true,
+        "hide_weak_edges_below": 0.35
+      },
+      "layout_preset_id": "layout_force_default"
+    },
+    {
+      "id": "ai_relevant",
+      "label": "AI relevant",
+      "description": "Actors with medium or high AI relevance.",
+      "node_filters": [
+        {
+          "field": "attributes.ai_relevance",
+          "operator": "in",
+          "value": [
+            "medium",
+            "high"
+          ]
+        }
+      ],
+      "edge_filters": [],
+      "style": {
+        "node_color_by": "sector",
+        "node_size_by": "scores.short_term_opportunity",
+        "node_shape_by": "type",
+        "label_mode": "focused",
+        "edge_visibility": "strong_only",
+        "show_legend": true,
+        "show_geo_overlay": false
+      },
+      "defaults": {
+        "focus_hops": 1,
+        "show_profile_on_click": true,
+        "hide_weak_edges_below": 0.35
+      },
+      "layout_preset_id": "layout_force_default"
+    },
+    {
+      "id": "high_opportunity",
+      "label": "High opportunity",
+      "description": "Tier 1 and tier 2 actors only.",
+      "node_filters": [
+        {
+          "field": "attributes.opportunity_band",
+          "operator": "in",
+          "value": [
+            "tier_1",
+            "tier_2"
+          ]
+        }
+      ],
+      "edge_filters": [],
+      "style": {
+        "node_color_by": "attributes.opportunity_band",
+        "node_size_by": "scores.commercial_attractiveness",
+        "node_shape_by": "type",
+        "label_mode": "focused",
+        "edge_visibility": "strong_only",
+        "show_legend": true,
+        "show_geo_overlay": false
+      },
+      "defaults": {
+        "focus_hops": 1,
+        "show_profile_on_click": true,
+        "hide_weak_edges_below": 0.45
+      },
+      "layout_preset_id": "layout_force_default"
+    },
+    {
+      "id": "geo_corridor",
+      "label": "Geographic corridor",
+      "description": "Location-oriented lens with municipality structure emphasized.",
+      "node_filters": [],
+      "edge_filters": [
+        {
+          "field": "type",
+          "operator": "in",
+          "value": [
+            "operates_in",
+            "ownership",
+            "subsidiary_of"
+          ]
+        }
+      ],
+      "style": {
+        "node_color_by": "location.zone",
+        "node_size_by": "scores.commercial_attractiveness",
+        "node_shape_by": "type",
+        "label_mode": "focused",
+        "edge_visibility": "strong_only",
+        "show_legend": true,
+        "show_geo_overlay": true
+      },
+      "defaults": {
+        "focus_hops": 1,
+        "show_profile_on_click": true,
+        "hide_weak_edges_below": 0.35
+      },
+      "layout_preset_id": "layout_geo_stub"
+    }
+  ],
+  "layout_presets": [
+    {
+      "id": "layout_force_default",
+      "label": "Default force layout",
+      "type": "force",
+      "viewport": {
+        "x": 0,
+        "y": 0,
+        "zoom": 0.9
+      }
+    },
+    {
+      "id": "layout_ecosystem",
+      "label": "Ecosystem-biased force layout",
+      "type": "force",
+      "viewport": {
+        "x": 0,
+        "y": 0,
+        "zoom": 1.0
+      }
+    },
+    {
+      "id": "layout_geo_stub",
+      "label": "Geo-ready layout",
+      "type": "geo",
+      "viewport": {
+        "x": 0,
+        "y": 0,
+        "zoom": 1.0
+      }
+    }
+  ],
+  "source_refs": [
+    {
+      "id": "src_stavanger_kommune",
+      "label": "Stavanger kommune",
+      "type": "official",
+      "publisher": "stavanger.kommune.no",
+      "url": "https://www.stavanger.kommune.no/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_sandnes_kommune",
+      "label": "Sandnes kommune",
+      "type": "official",
+      "publisher": "sandnes.kommune.no",
+      "url": "https://www.sandnes.kommune.no/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_sola_kommune",
+      "label": "Sola kommune",
+      "type": "official",
+      "publisher": "sola.kommune.no",
+      "url": "https://www.sola.kommune.no/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_randaberg_kommune",
+      "label": "Randaberg kommune",
+      "type": "official",
+      "publisher": "randaberg.kommune.no",
+      "url": "https://www.randaberg.kommune.no/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_klepp_kommune",
+      "label": "Klepp kommune",
+      "type": "official",
+      "publisher": "klepp.kommune.no",
+      "url": "https://www.klepp.kommune.no/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_haa_kommune",
+      "label": "Hå kommune",
+      "type": "official",
+      "publisher": "ha.no",
+      "url": "https://www.ha.no/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_time_kommune",
+      "label": "Time kommune",
+      "type": "official",
+      "publisher": "time.kommune.no",
+      "url": "https://www.time.kommune.no/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_gjesdal_kommune",
+      "label": "Gjesdal kommune",
+      "type": "official",
+      "publisher": "gjesdal.kommune.no",
+      "url": "https://www.gjesdal.kommune.no/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_bjerkreim_kommune",
+      "label": "Bjerkreim kommune",
+      "type": "official",
+      "publisher": "bjerkreim.kommune.no",
+      "url": "https://www.bjerkreim.kommune.no/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_eigersund_kommune",
+      "label": "Eigersund kommune",
+      "type": "official",
+      "publisher": "eigersund.kommune.no",
+      "url": "https://www.eigersund.kommune.no/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_lyse",
+      "label": "Lyse om oss",
+      "type": "official",
+      "publisher": "lysekonsern.no",
+      "url": "https://www.lysekonsern.no/om-oss/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_lyse_owners",
+      "label": "Lyse eierskap og historie",
+      "type": "official",
+      "publisher": "lysekonsern.no",
+      "url": "https://www.lysekonsern.no/om-oss/eierskap-og-historie/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_lyse_marked",
+      "label": "Lyse Marked AS",
+      "type": "official",
+      "publisher": "lysekonsern.no",
+      "url": "https://www.lysekonsern.no/om-oss/vare-selskaper/ovrige-selskaper/lyse-marked-as/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_ivar",
+      "label": "IVAR about",
+      "type": "official",
+      "publisher": "ivar.no",
+      "url": "https://www.ivar.no/english/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_uis",
+      "label": "University of Stavanger frontpage",
+      "type": "official",
+      "publisher": "uis.no",
+      "url": "https://www.uis.no/en/collaboration/frontpage",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_helse_stavanger",
+      "label": "Helse Stavanger frontpage",
+      "type": "official",
+      "publisher": "helse-stavanger.no",
+      "url": "https://www.helse-stavanger.no/en",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_norce",
+      "label": "NORCE",
+      "type": "official",
+      "publisher": "norce.no",
+      "url": "https://www.norce.no/en",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_valide",
+      "label": "Validé om Validé",
+      "type": "official",
+      "publisher": "valide.no",
+      "url": "https://www.valide.no/om-valide",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_nscc",
+      "label": "NSCC about",
+      "type": "official",
+      "publisher": "smartcarecluster.no",
+      "url": "https://www.smartcarecluster.no/about-nscc",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_nordic_edge",
+      "label": "Nordic Edge about",
+      "type": "official",
+      "publisher": "nordicedge.org",
+      "url": "https://nordicedge.org/about-us/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_naeringsforeningen",
+      "label": "Næringsforeningen om oss",
+      "type": "official",
+      "publisher": "naeringsforeningen.no",
+      "url": "https://www.naeringsforeningen.no/om-oss",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_now",
+      "label": "Norwegian Offshore Wind about",
+      "type": "official",
+      "publisher": "norwegianoffshorewind.no",
+      "url": "https://www.norwegianoffshorewind.no/about",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_healthcampus",
+      "label": "HelseCampus Stavanger",
+      "type": "official",
+      "publisher": "uis.no",
+      "url": "https://www.uis.no/en/helsecampus/helsecampus-stavanger",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_uis_norce_health",
+      "label": "UiS-NORCE health agreement",
+      "type": "official",
+      "publisher": "uis.no",
+      "url": "https://www.uis.no/nb/forskning/om-uis/samarbeidsavtale-med-norce-om-helse",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_laerdal",
+      "label": "Laerdal work in Norway",
+      "type": "official",
+      "publisher": "laerdal.com",
+      "url": "https://laerdal.com/about-us/working-at-laerdal/work-in-norway/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_zaptec",
+      "label": "Zaptec home",
+      "type": "official",
+      "publisher": "zaptec.com",
+      "url": "https://www.zaptec.com/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_zaptec_contact",
+      "label": "Zaptec Charger AS address",
+      "type": "official",
+      "publisher": "zaptec.com",
+      "url": "https://shop.zaptec.com/tilbehor/installasjon/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_aarbakke",
+      "label": "Aarbakke Innovation home",
+      "type": "official",
+      "publisher": "aarbakkeinnovation.com",
+      "url": "https://aarbakkeinnovation.com/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_aarbakke_about",
+      "label": "Aarbakke Innovation about",
+      "type": "official",
+      "publisher": "aarbakkeinnovation.com",
+      "url": "https://aarbakkeinnovation.com/about-us/about-us",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_akva",
+      "label": "AKVA group about us",
+      "type": "official",
+      "publisher": "akvagroup.com",
+      "url": "https://www.akvagroup.com/about-us",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_akva_offices",
+      "label": "AKVA group offices",
+      "type": "official",
+      "publisher": "akvagroup.com",
+      "url": "https://www.akvagroup.com/contact/our-offices/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_var_energi",
+      "label": "Vår Energi about",
+      "type": "official",
+      "publisher": "varenergi.no",
+      "url": "https://varenergi.no/en/about-us/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_var_energi_contact",
+      "label": "Vår Energi contact",
+      "type": "official",
+      "publisher": "varenergi.no",
+      "url": "https://varenergi.no/en/contact/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_odfjell",
+      "label": "Odfjell Drilling home",
+      "type": "official",
+      "publisher": "odfjelldrilling.com",
+      "url": "https://www.odfjelldrilling.com/",
+      "accessed_at": "2026-04-22"
+    },
+    {
+      "id": "src_odfjell_norway",
+      "label": "Odfjell Drilling Norway contact",
+      "type": "official",
+      "publisher": "odfjelldrilling.com",
+      "url": "https://www.odfjelldrilling.com/Contact/Norway/",
+      "accessed_at": "2026-04-22"
+    }
+  ]
+}
