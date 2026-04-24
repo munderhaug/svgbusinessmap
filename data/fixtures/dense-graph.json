@@ -1,0 +1,3221 @@
+{
+  "meta": {
+    "project_id": "dense-graph",
+    "title": "Dense Graph Fixture",
+    "description": "Dense graph fixture for rendering and interaction tests.",
+    "version": "0.1.0",
+    "updated_at": "2026-04-22",
+    "default_view_id": "overview",
+    "locale": "en",
+    "corridor_description": "Dense graph test fixture."
+  },
+  "nodes": [
+    {
+      "id": "d1",
+      "label": "Dense Actor 1",
+      "type": "organization",
+      "buyer_type": "private",
+      "sector": "energy",
+      "subsector": "services",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "medium",
+        "ai_relevance": "low",
+        "software_relevance": "high",
+        "product_relevance": "high",
+        "likely_needs": [
+          "software_modernization",
+          "team_augmentation"
+        ],
+        "likely_buying_modes": [
+          "retained_partner",
+          "specialist"
+        ],
+        "opportunity_band": "tier_3",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 1.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "cpo"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 37,
+        "short_term_opportunity": 30,
+        "access_difficulty": 70,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d2",
+      "label": "Dense Actor 2",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "software",
+      "subsector": "platform",
+      "location": {
+        "municipality": "Sandnes",
+        "zone": "south_jaeren"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "low",
+        "ai_relevance": "low",
+        "software_relevance": "medium",
+        "product_relevance": "high",
+        "likely_needs": [
+          "product_development",
+          "software_modernization"
+        ],
+        "likely_buying_modes": [
+          "retained_partner",
+          "specialist"
+        ],
+        "opportunity_band": "tier_2",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 2.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "operations_lead"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 38,
+        "short_term_opportunity": 39,
+        "access_difficulty": 20,
+        "confidence_level": "high",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d3",
+      "label": "Dense Actor 3",
+      "type": "hybrid_entity",
+      "buyer_type": "hybrid",
+      "sector": "public_services",
+      "subsector": "municipality",
+      "location": {
+        "municipality": "Sola",
+        "zone": "south"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "mixed",
+        "procurement_regime": "hybrid",
+        "design_relevance": "low",
+        "ai_relevance": "medium",
+        "software_relevance": "high",
+        "product_relevance": "low",
+        "likely_needs": [
+          "team_augmentation",
+          "software_modernization"
+        ],
+        "likely_buying_modes": [
+          "retained_partner",
+          "team"
+        ],
+        "opportunity_band": "watchlist",
+        "relationship_status": "known"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 3.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "cto"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 72,
+        "short_term_opportunity": 61,
+        "access_difficulty": 39,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d4",
+      "label": "Dense Actor 4",
+      "type": "organization",
+      "buyer_type": "growth",
+      "sector": "industrial",
+      "subsector": "manufacturing",
+      "location": {
+        "municipality": "Time",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "low",
+        "ai_relevance": "high",
+        "software_relevance": "medium",
+        "product_relevance": "high",
+        "likely_needs": [
+          "software_modernization",
+          "service_design"
+        ],
+        "likely_buying_modes": [
+          "managed_delivery",
+          "retained_partner"
+        ],
+        "opportunity_band": "tier_3",
+        "relationship_status": "active"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 4.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "operations_lead"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 58,
+        "short_term_opportunity": 44,
+        "access_difficulty": 46,
+        "confidence_level": "low",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d5",
+      "label": "Dense Actor 5",
+      "type": "ecosystem_actor",
+      "buyer_type": "channel",
+      "sector": "maritime",
+      "subsector": "cluster",
+      "location": {
+        "municipality": "Klepp",
+        "zone": "south_jaeren"
+      },
+      "attributes": {
+        "size_band": "large",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "high",
+        "ai_relevance": "low",
+        "software_relevance": "medium",
+        "product_relevance": "high",
+        "likely_needs": [
+          "ai_enablement",
+          "product_development"
+        ],
+        "likely_buying_modes": [
+          "team",
+          "managed_delivery"
+        ],
+        "opportunity_band": "tier_3",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 5.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "cto"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 67,
+        "short_term_opportunity": 51,
+        "access_difficulty": 36,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d6",
+      "label": "Dense Actor 6",
+      "type": "organization",
+      "buyer_type": "private",
+      "sector": "energy",
+      "subsector": "services",
+      "location": {
+        "municipality": "Hå",
+        "zone": "south"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "low",
+        "ai_relevance": "medium",
+        "software_relevance": "high",
+        "product_relevance": "low",
+        "likely_needs": [
+          "software_modernization",
+          "ai_enablement"
+        ],
+        "likely_buying_modes": [
+          "team",
+          "retained_partner"
+        ],
+        "opportunity_band": "watchlist",
+        "relationship_status": "active"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 6.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "operations_lead"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 39,
+        "short_term_opportunity": 78,
+        "access_difficulty": 26,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d7",
+      "label": "Dense Actor 7",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "software",
+      "subsector": "platform",
+      "location": {
+        "municipality": "Eigersund",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "medium",
+        "ai_relevance": "high",
+        "software_relevance": "medium",
+        "product_relevance": "low",
+        "likely_needs": [
+          "ai_enablement",
+          "product_development"
+        ],
+        "likely_buying_modes": [
+          "team",
+          "managed_delivery"
+        ],
+        "opportunity_band": "tier_3",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 7.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "operations_lead"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 57,
+        "short_term_opportunity": 35,
+        "access_difficulty": 29,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d8",
+      "label": "Dense Actor 8",
+      "type": "hybrid_entity",
+      "buyer_type": "hybrid",
+      "sector": "public_services",
+      "subsector": "municipality",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "south_jaeren"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "mixed",
+        "procurement_regime": "hybrid",
+        "design_relevance": "low",
+        "ai_relevance": "low",
+        "software_relevance": "high",
+        "product_relevance": "low",
+        "likely_needs": [
+          "service_design",
+          "product_development"
+        ],
+        "likely_buying_modes": [
+          "managed_delivery",
+          "retained_partner"
+        ],
+        "opportunity_band": "tier_1",
+        "relationship_status": "known"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 8.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "operations_lead"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 60,
+        "short_term_opportunity": 60,
+        "access_difficulty": 50,
+        "confidence_level": "low",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d9",
+      "label": "Dense Actor 9",
+      "type": "organization",
+      "buyer_type": "growth",
+      "sector": "industrial",
+      "subsector": "manufacturing",
+      "location": {
+        "municipality": "Sandnes",
+        "zone": "south"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "medium",
+        "ai_relevance": "high",
+        "software_relevance": "high",
+        "product_relevance": "high",
+        "likely_needs": [
+          "product_development",
+          "ai_enablement"
+        ],
+        "likely_buying_modes": [
+          "managed_delivery",
+          "pod"
+        ],
+        "opportunity_band": "tier_2",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 9.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "cpo"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 44,
+        "short_term_opportunity": 39,
+        "access_difficulty": 44,
+        "confidence_level": "low",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d10",
+      "label": "Dense Actor 10",
+      "type": "ecosystem_actor",
+      "buyer_type": "channel",
+      "sector": "maritime",
+      "subsector": "cluster",
+      "location": {
+        "municipality": "Sola",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "large",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "medium",
+        "ai_relevance": "high",
+        "software_relevance": "medium",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "ai_enablement",
+          "software_modernization"
+        ],
+        "likely_buying_modes": [
+          "pod",
+          "managed_delivery"
+        ],
+        "opportunity_band": "watchlist",
+        "relationship_status": "warm"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 10.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "digital_lead"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 43,
+        "short_term_opportunity": 69,
+        "access_difficulty": 80,
+        "confidence_level": "high",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d11",
+      "label": "Dense Actor 11",
+      "type": "organization",
+      "buyer_type": "private",
+      "sector": "energy",
+      "subsector": "services",
+      "location": {
+        "municipality": "Time",
+        "zone": "south_jaeren"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "high",
+        "ai_relevance": "high",
+        "software_relevance": "medium",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "team_augmentation",
+          "product_development"
+        ],
+        "likely_buying_modes": [
+          "managed_delivery",
+          "retained_partner"
+        ],
+        "opportunity_band": "tier_4",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 11.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "operations_lead"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 75,
+        "short_term_opportunity": 50,
+        "access_difficulty": 22,
+        "confidence_level": "low",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d12",
+      "label": "Dense Actor 12",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "software",
+      "subsector": "platform",
+      "location": {
+        "municipality": "Klepp",
+        "zone": "south"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "low",
+        "ai_relevance": "low",
+        "software_relevance": "high",
+        "product_relevance": "low",
+        "likely_needs": [
+          "software_modernization",
+          "ai_enablement"
+        ],
+        "likely_buying_modes": [
+          "retained_partner",
+          "specialist"
+        ],
+        "opportunity_band": "tier_1",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 12.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "cpo"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 69,
+        "short_term_opportunity": 31,
+        "access_difficulty": 61,
+        "confidence_level": "high",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d13",
+      "label": "Dense Actor 13",
+      "type": "hybrid_entity",
+      "buyer_type": "hybrid",
+      "sector": "public_services",
+      "subsector": "municipality",
+      "location": {
+        "municipality": "Hå",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "mixed",
+        "procurement_regime": "hybrid",
+        "design_relevance": "low",
+        "ai_relevance": "low",
+        "software_relevance": "medium",
+        "product_relevance": "high",
+        "likely_needs": [
+          "product_development",
+          "service_design"
+        ],
+        "likely_buying_modes": [
+          "team",
+          "retained_partner"
+        ],
+        "opportunity_band": "watchlist",
+        "relationship_status": "warm"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 13.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "operations_lead"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 42,
+        "short_term_opportunity": 32,
+        "access_difficulty": 77,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d14",
+      "label": "Dense Actor 14",
+      "type": "organization",
+      "buyer_type": "growth",
+      "sector": "industrial",
+      "subsector": "manufacturing",
+      "location": {
+        "municipality": "Eigersund",
+        "zone": "south_jaeren"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "medium",
+        "ai_relevance": "medium",
+        "software_relevance": "high",
+        "product_relevance": "low",
+        "likely_needs": [
+          "service_design",
+          "software_modernization"
+        ],
+        "likely_buying_modes": [
+          "team",
+          "retained_partner"
+        ],
+        "opportunity_band": "tier_4",
+        "relationship_status": "known"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 14.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "cto"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 48,
+        "short_term_opportunity": 85,
+        "access_difficulty": 61,
+        "confidence_level": "low",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d15",
+      "label": "Dense Actor 15",
+      "type": "ecosystem_actor",
+      "buyer_type": "channel",
+      "sector": "maritime",
+      "subsector": "cluster",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "south"
+      },
+      "attributes": {
+        "size_band": "large",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "high",
+        "ai_relevance": "high",
+        "software_relevance": "medium",
+        "product_relevance": "high",
+        "likely_needs": [
+          "ai_enablement",
+          "software_modernization"
+        ],
+        "likely_buying_modes": [
+          "team",
+          "retained_partner"
+        ],
+        "opportunity_band": "tier_2",
+        "relationship_status": "warm"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 15.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "cpo"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 69,
+        "short_term_opportunity": 59,
+        "access_difficulty": 79,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d16",
+      "label": "Dense Actor 16",
+      "type": "organization",
+      "buyer_type": "private",
+      "sector": "energy",
+      "subsector": "services",
+      "location": {
+        "municipality": "Sandnes",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "high",
+        "ai_relevance": "low",
+        "software_relevance": "medium",
+        "product_relevance": "low",
+        "likely_needs": [
+          "product_development",
+          "service_design"
+        ],
+        "likely_buying_modes": [
+          "pod",
+          "managed_delivery"
+        ],
+        "opportunity_band": "tier_3",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 16.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "cto"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 85,
+        "short_term_opportunity": 42,
+        "access_difficulty": 75,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d17",
+      "label": "Dense Actor 17",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "software",
+      "subsector": "platform",
+      "location": {
+        "municipality": "Sola",
+        "zone": "south_jaeren"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "low",
+        "ai_relevance": "high",
+        "software_relevance": "high",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "ai_enablement",
+          "team_augmentation"
+        ],
+        "likely_buying_modes": [
+          "specialist",
+          "pod"
+        ],
+        "opportunity_band": "tier_1",
+        "relationship_status": "known"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 17.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "operations_lead"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 47,
+        "short_term_opportunity": 46,
+        "access_difficulty": 41,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d18",
+      "label": "Dense Actor 18",
+      "type": "hybrid_entity",
+      "buyer_type": "hybrid",
+      "sector": "public_services",
+      "subsector": "municipality",
+      "location": {
+        "municipality": "Time",
+        "zone": "south"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "mixed",
+        "procurement_regime": "hybrid",
+        "design_relevance": "high",
+        "ai_relevance": "high",
+        "software_relevance": "medium",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "ai_enablement",
+          "software_modernization"
+        ],
+        "likely_buying_modes": [
+          "specialist",
+          "managed_delivery"
+        ],
+        "opportunity_band": "tier_2",
+        "relationship_status": "active"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 18.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "cpo"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 62,
+        "short_term_opportunity": 75,
+        "access_difficulty": 57,
+        "confidence_level": "low",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d19",
+      "label": "Dense Actor 19",
+      "type": "organization",
+      "buyer_type": "growth",
+      "sector": "industrial",
+      "subsector": "manufacturing",
+      "location": {
+        "municipality": "Klepp",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "high",
+        "ai_relevance": "medium",
+        "software_relevance": "high",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "software_modernization",
+          "service_design"
+        ],
+        "likely_buying_modes": [
+          "pod",
+          "retained_partner"
+        ],
+        "opportunity_band": "tier_1",
+        "relationship_status": "known"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 19.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "operations_lead"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 86,
+        "short_term_opportunity": 66,
+        "access_difficulty": 33,
+        "confidence_level": "high",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d20",
+      "label": "Dense Actor 20",
+      "type": "ecosystem_actor",
+      "buyer_type": "channel",
+      "sector": "maritime",
+      "subsector": "cluster",
+      "location": {
+        "municipality": "Hå",
+        "zone": "south_jaeren"
+      },
+      "attributes": {
+        "size_band": "large",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "high",
+        "ai_relevance": "medium",
+        "software_relevance": "high",
+        "product_relevance": "low",
+        "likely_needs": [
+          "team_augmentation",
+          "service_design"
+        ],
+        "likely_buying_modes": [
+          "specialist",
+          "retained_partner"
+        ],
+        "opportunity_band": "tier_1",
+        "relationship_status": "known"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 20.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "operations_lead"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 90,
+        "short_term_opportunity": 37,
+        "access_difficulty": 42,
+        "confidence_level": "low",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d21",
+      "label": "Dense Actor 21",
+      "type": "organization",
+      "buyer_type": "private",
+      "sector": "energy",
+      "subsector": "services",
+      "location": {
+        "municipality": "Eigersund",
+        "zone": "south"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "medium",
+        "ai_relevance": "low",
+        "software_relevance": "high",
+        "product_relevance": "high",
+        "likely_needs": [
+          "service_design",
+          "ai_enablement"
+        ],
+        "likely_buying_modes": [
+          "team",
+          "managed_delivery"
+        ],
+        "opportunity_band": "tier_2",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 21.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "digital_lead"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 64,
+        "short_term_opportunity": 67,
+        "access_difficulty": 68,
+        "confidence_level": "high",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d22",
+      "label": "Dense Actor 22",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "software",
+      "subsector": "platform",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "low",
+        "ai_relevance": "high",
+        "software_relevance": "medium",
+        "product_relevance": "high",
+        "likely_needs": [
+          "team_augmentation",
+          "software_modernization"
+        ],
+        "likely_buying_modes": [
+          "managed_delivery",
+          "pod"
+        ],
+        "opportunity_band": "watchlist",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 22.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "cpo"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 46,
+        "short_term_opportunity": 34,
+        "access_difficulty": 75,
+        "confidence_level": "high",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d23",
+      "label": "Dense Actor 23",
+      "type": "hybrid_entity",
+      "buyer_type": "hybrid",
+      "sector": "public_services",
+      "subsector": "municipality",
+      "location": {
+        "municipality": "Sandnes",
+        "zone": "south_jaeren"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "mixed",
+        "procurement_regime": "hybrid",
+        "design_relevance": "high",
+        "ai_relevance": "low",
+        "software_relevance": "medium",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "team_augmentation",
+          "product_development"
+        ],
+        "likely_buying_modes": [
+          "specialist",
+          "retained_partner"
+        ],
+        "opportunity_band": "tier_2",
+        "relationship_status": "known"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 23.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "digital_lead"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 37,
+        "short_term_opportunity": 74,
+        "access_difficulty": 27,
+        "confidence_level": "high",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d24",
+      "label": "Dense Actor 24",
+      "type": "organization",
+      "buyer_type": "growth",
+      "sector": "industrial",
+      "subsector": "manufacturing",
+      "location": {
+        "municipality": "Sola",
+        "zone": "south"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "medium",
+        "ai_relevance": "high",
+        "software_relevance": "medium",
+        "product_relevance": "low",
+        "likely_needs": [
+          "product_development",
+          "ai_enablement"
+        ],
+        "likely_buying_modes": [
+          "retained_partner",
+          "pod"
+        ],
+        "opportunity_band": "tier_3",
+        "relationship_status": "active"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 24.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "operations_lead"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 67,
+        "short_term_opportunity": 85,
+        "access_difficulty": 46,
+        "confidence_level": "high",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d25",
+      "label": "Dense Actor 25",
+      "type": "ecosystem_actor",
+      "buyer_type": "channel",
+      "sector": "maritime",
+      "subsector": "cluster",
+      "location": {
+        "municipality": "Time",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "large",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "high",
+        "ai_relevance": "medium",
+        "software_relevance": "medium",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "service_design",
+          "product_development"
+        ],
+        "likely_buying_modes": [
+          "specialist",
+          "managed_delivery"
+        ],
+        "opportunity_band": "tier_4",
+        "relationship_status": "warm"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 25.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "cto"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 77,
+        "short_term_opportunity": 40,
+        "access_difficulty": 69,
+        "confidence_level": "low",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d26",
+      "label": "Dense Actor 26",
+      "type": "organization",
+      "buyer_type": "private",
+      "sector": "energy",
+      "subsector": "services",
+      "location": {
+        "municipality": "Klepp",
+        "zone": "south_jaeren"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "low",
+        "ai_relevance": "high",
+        "software_relevance": "high",
+        "product_relevance": "low",
+        "likely_needs": [
+          "service_design",
+          "ai_enablement"
+        ],
+        "likely_buying_modes": [
+          "pod",
+          "team"
+        ],
+        "opportunity_band": "tier_2",
+        "relationship_status": "active"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 26.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "cpo"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 82,
+        "short_term_opportunity": 85,
+        "access_difficulty": 27,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d27",
+      "label": "Dense Actor 27",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "software",
+      "subsector": "platform",
+      "location": {
+        "municipality": "Hå",
+        "zone": "south"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "medium",
+        "ai_relevance": "low",
+        "software_relevance": "medium",
+        "product_relevance": "low",
+        "likely_needs": [
+          "product_development",
+          "team_augmentation"
+        ],
+        "likely_buying_modes": [
+          "team",
+          "managed_delivery"
+        ],
+        "opportunity_band": "tier_2",
+        "relationship_status": "warm"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 27.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "digital_lead"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 40,
+        "short_term_opportunity": 71,
+        "access_difficulty": 61,
+        "confidence_level": "low",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d28",
+      "label": "Dense Actor 28",
+      "type": "hybrid_entity",
+      "buyer_type": "hybrid",
+      "sector": "public_services",
+      "subsector": "municipality",
+      "location": {
+        "municipality": "Eigersund",
+        "zone": "core"
+      },
+      "attributes": {
+        "size_band": "medium",
+        "ownership_type": "mixed",
+        "procurement_regime": "hybrid",
+        "design_relevance": "medium",
+        "ai_relevance": "high",
+        "software_relevance": "high",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "software_modernization",
+          "product_development"
+        ],
+        "likely_buying_modes": [
+          "team",
+          "retained_partner"
+        ],
+        "opportunity_band": "watchlist",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 28.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "cto"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 85,
+        "short_term_opportunity": 39,
+        "access_difficulty": 28,
+        "confidence_level": "low",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d29",
+      "label": "Dense Actor 29",
+      "type": "organization",
+      "buyer_type": "growth",
+      "sector": "industrial",
+      "subsector": "manufacturing",
+      "location": {
+        "municipality": "Stavanger",
+        "zone": "south_jaeren"
+      },
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "medium",
+        "ai_relevance": "medium",
+        "software_relevance": "medium",
+        "product_relevance": "low",
+        "likely_needs": [
+          "ai_enablement",
+          "service_design"
+        ],
+        "likely_buying_modes": [
+          "managed_delivery",
+          "team"
+        ],
+        "opportunity_band": "tier_4",
+        "relationship_status": "known"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 29.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "operations_lead"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 79,
+        "short_term_opportunity": 45,
+        "access_difficulty": 26,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "d30",
+      "label": "Dense Actor 30",
+      "type": "ecosystem_actor",
+      "buyer_type": "channel",
+      "sector": "maritime",
+      "subsector": "cluster",
+      "location": {
+        "municipality": "Sandnes",
+        "zone": "south"
+      },
+      "attributes": {
+        "size_band": "large",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "low",
+        "ai_relevance": "high",
+        "software_relevance": "medium",
+        "product_relevance": "medium",
+        "likely_needs": [
+          "software_modernization",
+          "ai_enablement"
+        ],
+        "likely_buying_modes": [
+          "specialist",
+          "retained_partner"
+        ],
+        "opportunity_band": "tier_3",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Dense fixture actor 30.",
+        "why_it_matters": "Used to test dense rendering and interaction.",
+        "relevant_to_olavstoppen": "Fixture actor for graph behavior testing.",
+        "likely_sponsor_roles": [
+          "cpo"
+        ],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 39,
+        "short_term_opportunity": 41,
+        "access_difficulty": 30,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_1",
+      "source": "d1",
+      "target": "d2",
+      "type": "adjacent_to",
+      "directed": false,
+      "strength": 0.95,
+      "label": "adjacent_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_2",
+      "source": "d1",
+      "target": "d3",
+      "type": "member_of",
+      "directed": true,
+      "strength": 0.14,
+      "label": "member_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_3",
+      "source": "d1",
+      "target": "d8",
+      "type": "partner_of",
+      "directed": true,
+      "strength": 0.92,
+      "label": "partner_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_4",
+      "source": "d2",
+      "target": "d3",
+      "type": "adjacent_to",
+      "directed": true,
+      "strength": 0.27,
+      "label": "adjacent_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_5",
+      "source": "d2",
+      "target": "d4",
+      "type": "operates_in",
+      "directed": false,
+      "strength": 0.55,
+      "label": "operates_in",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_6",
+      "source": "d2",
+      "target": "d9",
+      "type": "member_of",
+      "directed": false,
+      "strength": 0.53,
+      "label": "member_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_7",
+      "source": "d3",
+      "target": "d4",
+      "type": "member_of",
+      "directed": false,
+      "strength": 0.78,
+      "label": "member_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_8",
+      "source": "d3",
+      "target": "d5",
+      "type": "adjacent_to",
+      "directed": true,
+      "strength": 0.12,
+      "label": "adjacent_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_9",
+      "source": "d3",
+      "target": "d10",
+      "type": "channel_to",
+      "directed": true,
+      "strength": 0.54,
+      "label": "channel_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_10",
+      "source": "d4",
+      "target": "d5",
+      "type": "collaborates_with",
+      "directed": true,
+      "strength": 0.66,
+      "label": "collaborates_with",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_11",
+      "source": "d4",
+      "target": "d6",
+      "type": "collaborates_with",
+      "directed": false,
+      "strength": 0.56,
+      "label": "collaborates_with",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_12",
+      "source": "d4",
+      "target": "d11",
+      "type": "channel_to",
+      "directed": false,
+      "strength": 0.68,
+      "label": "channel_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_13",
+      "source": "d5",
+      "target": "d6",
+      "type": "member_of",
+      "directed": true,
+      "strength": 0.81,
+      "label": "member_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_14",
+      "source": "d5",
+      "target": "d7",
+      "type": "operates_in",
+      "directed": true,
+      "strength": 0.44,
+      "label": "operates_in",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_15",
+      "source": "d5",
+      "target": "d12",
+      "type": "adjacent_to",
+      "directed": true,
+      "strength": 0.11,
+      "label": "adjacent_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_16",
+      "source": "d6",
+      "target": "d7",
+      "type": "operates_in",
+      "directed": false,
+      "strength": 0.47,
+      "label": "operates_in",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_17",
+      "source": "d6",
+      "target": "d8",
+      "type": "adjacent_to",
+      "directed": false,
+      "strength": 0.84,
+      "label": "adjacent_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_18",
+      "source": "d6",
+      "target": "d13",
+      "type": "member_of",
+      "directed": true,
+      "strength": 0.69,
+      "label": "member_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_19",
+      "source": "d7",
+      "target": "d8",
+      "type": "collaborates_with",
+      "directed": true,
+      "strength": 0.23,
+      "label": "collaborates_with",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_20",
+      "source": "d7",
+      "target": "d9",
+      "type": "adjacent_to",
+      "directed": false,
+      "strength": 0.41,
+      "label": "adjacent_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_21",
+      "source": "d7",
+      "target": "d14",
+      "type": "channel_to",
+      "directed": false,
+      "strength": 0.31,
+      "label": "channel_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_22",
+      "source": "d8",
+      "target": "d9",
+      "type": "partner_of",
+      "directed": false,
+      "strength": 0.26,
+      "label": "partner_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_23",
+      "source": "d8",
+      "target": "d10",
+      "type": "collaborates_with",
+      "directed": true,
+      "strength": 0.5,
+      "label": "collaborates_with",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_24",
+      "source": "d8",
+      "target": "d15",
+      "type": "operates_in",
+      "directed": true,
+      "strength": 0.31,
+      "label": "operates_in",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_25",
+      "source": "d9",
+      "target": "d10",
+      "type": "adjacent_to",
+      "directed": false,
+      "strength": 0.79,
+      "label": "adjacent_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_26",
+      "source": "d9",
+      "target": "d11",
+      "type": "collaborates_with",
+      "directed": true,
+      "strength": 0.43,
+      "label": "collaborates_with",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_27",
+      "source": "d9",
+      "target": "d16",
+      "type": "member_of",
+      "directed": true,
+      "strength": 0.17,
+      "label": "member_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_28",
+      "source": "d10",
+      "target": "d11",
+      "type": "partner_of",
+      "directed": false,
+      "strength": 0.75,
+      "label": "partner_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_29",
+      "source": "d10",
+      "target": "d12",
+      "type": "collaborates_with",
+      "directed": true,
+      "strength": 0.34,
+      "label": "collaborates_with",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_30",
+      "source": "d10",
+      "target": "d17",
+      "type": "operates_in",
+      "directed": true,
+      "strength": 0.14,
+      "label": "operates_in",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_31",
+      "source": "d11",
+      "target": "d12",
+      "type": "channel_to",
+      "directed": false,
+      "strength": 0.72,
+      "label": "channel_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_32",
+      "source": "d11",
+      "target": "d13",
+      "type": "partner_of",
+      "directed": true,
+      "strength": 0.8,
+      "label": "partner_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_33",
+      "source": "d11",
+      "target": "d18",
+      "type": "operates_in",
+      "directed": true,
+      "strength": 0.17,
+      "label": "operates_in",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_34",
+      "source": "d12",
+      "target": "d13",
+      "type": "partner_of",
+      "directed": false,
+      "strength": 0.92,
+      "label": "partner_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_35",
+      "source": "d12",
+      "target": "d14",
+      "type": "collaborates_with",
+      "directed": true,
+      "strength": 0.63,
+      "label": "collaborates_with",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_36",
+      "source": "d12",
+      "target": "d19",
+      "type": "channel_to",
+      "directed": true,
+      "strength": 0.52,
+      "label": "channel_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_37",
+      "source": "d13",
+      "target": "d14",
+      "type": "collaborates_with",
+      "directed": true,
+      "strength": 0.74,
+      "label": "collaborates_with",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_38",
+      "source": "d13",
+      "target": "d15",
+      "type": "channel_to",
+      "directed": true,
+      "strength": 0.66,
+      "label": "channel_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_39",
+      "source": "d13",
+      "target": "d20",
+      "type": "operates_in",
+      "directed": false,
+      "strength": 0.31,
+      "label": "operates_in",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_40",
+      "source": "d14",
+      "target": "d15",
+      "type": "member_of",
+      "directed": true,
+      "strength": 0.72,
+      "label": "member_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_41",
+      "source": "d14",
+      "target": "d16",
+      "type": "partner_of",
+      "directed": false,
+      "strength": 0.52,
+      "label": "partner_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_42",
+      "source": "d14",
+      "target": "d21",
+      "type": "adjacent_to",
+      "directed": false,
+      "strength": 0.87,
+      "label": "adjacent_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_43",
+      "source": "d15",
+      "target": "d16",
+      "type": "adjacent_to",
+      "directed": true,
+      "strength": 0.17,
+      "label": "adjacent_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_44",
+      "source": "d15",
+      "target": "d17",
+      "type": "member_of",
+      "directed": false,
+      "strength": 0.65,
+      "label": "member_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_45",
+      "source": "d15",
+      "target": "d22",
+      "type": "member_of",
+      "directed": true,
+      "strength": 0.11,
+      "label": "member_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_46",
+      "source": "d16",
+      "target": "d17",
+      "type": "collaborates_with",
+      "directed": false,
+      "strength": 0.93,
+      "label": "collaborates_with",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_47",
+      "source": "d16",
+      "target": "d18",
+      "type": "operates_in",
+      "directed": true,
+      "strength": 0.67,
+      "label": "operates_in",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_48",
+      "source": "d16",
+      "target": "d23",
+      "type": "operates_in",
+      "directed": false,
+      "strength": 0.49,
+      "label": "operates_in",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_49",
+      "source": "d17",
+      "target": "d18",
+      "type": "adjacent_to",
+      "directed": true,
+      "strength": 0.36,
+      "label": "adjacent_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_50",
+      "source": "d17",
+      "target": "d19",
+      "type": "collaborates_with",
+      "directed": true,
+      "strength": 0.35,
+      "label": "collaborates_with",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_51",
+      "source": "d17",
+      "target": "d24",
+      "type": "channel_to",
+      "directed": false,
+      "strength": 0.94,
+      "label": "channel_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_52",
+      "source": "d18",
+      "target": "d19",
+      "type": "partner_of",
+      "directed": true,
+      "strength": 0.16,
+      "label": "partner_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_53",
+      "source": "d18",
+      "target": "d20",
+      "type": "partner_of",
+      "directed": false,
+      "strength": 0.91,
+      "label": "partner_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_54",
+      "source": "d18",
+      "target": "d25",
+      "type": "channel_to",
+      "directed": false,
+      "strength": 0.85,
+      "label": "channel_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_55",
+      "source": "d19",
+      "target": "d20",
+      "type": "member_of",
+      "directed": true,
+      "strength": 0.52,
+      "label": "member_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_56",
+      "source": "d19",
+      "target": "d21",
+      "type": "collaborates_with",
+      "directed": true,
+      "strength": 0.24,
+      "label": "collaborates_with",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_57",
+      "source": "d19",
+      "target": "d26",
+      "type": "operates_in",
+      "directed": false,
+      "strength": 0.44,
+      "label": "operates_in",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_58",
+      "source": "d20",
+      "target": "d21",
+      "type": "partner_of",
+      "directed": false,
+      "strength": 0.39,
+      "label": "partner_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_59",
+      "source": "d20",
+      "target": "d22",
+      "type": "adjacent_to",
+      "directed": false,
+      "strength": 0.1,
+      "label": "adjacent_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_60",
+      "source": "d20",
+      "target": "d27",
+      "type": "collaborates_with",
+      "directed": true,
+      "strength": 0.9,
+      "label": "collaborates_with",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_61",
+      "source": "d21",
+      "target": "d22",
+      "type": "operates_in",
+      "directed": true,
+      "strength": 0.87,
+      "label": "operates_in",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_62",
+      "source": "d21",
+      "target": "d23",
+      "type": "member_of",
+      "directed": false,
+      "strength": 0.16,
+      "label": "member_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_63",
+      "source": "d21",
+      "target": "d28",
+      "type": "channel_to",
+      "directed": true,
+      "strength": 0.41,
+      "label": "channel_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_64",
+      "source": "d22",
+      "target": "d23",
+      "type": "member_of",
+      "directed": true,
+      "strength": 0.34,
+      "label": "member_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_65",
+      "source": "d22",
+      "target": "d24",
+      "type": "operates_in",
+      "directed": false,
+      "strength": 0.64,
+      "label": "operates_in",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_66",
+      "source": "d22",
+      "target": "d29",
+      "type": "partner_of",
+      "directed": false,
+      "strength": 0.47,
+      "label": "partner_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_67",
+      "source": "d23",
+      "target": "d24",
+      "type": "partner_of",
+      "directed": false,
+      "strength": 0.77,
+      "label": "partner_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_68",
+      "source": "d23",
+      "target": "d25",
+      "type": "adjacent_to",
+      "directed": false,
+      "strength": 0.88,
+      "label": "adjacent_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_69",
+      "source": "d23",
+      "target": "d30",
+      "type": "channel_to",
+      "directed": true,
+      "strength": 0.71,
+      "label": "channel_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_70",
+      "source": "d24",
+      "target": "d25",
+      "type": "operates_in",
+      "directed": false,
+      "strength": 0.48,
+      "label": "operates_in",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_71",
+      "source": "d24",
+      "target": "d26",
+      "type": "operates_in",
+      "directed": false,
+      "strength": 0.51,
+      "label": "operates_in",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_72",
+      "source": "d24",
+      "target": "d1",
+      "type": "partner_of",
+      "directed": true,
+      "strength": 0.5,
+      "label": "partner_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_73",
+      "source": "d25",
+      "target": "d26",
+      "type": "member_of",
+      "directed": false,
+      "strength": 0.32,
+      "label": "member_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_74",
+      "source": "d25",
+      "target": "d27",
+      "type": "operates_in",
+      "directed": false,
+      "strength": 0.45,
+      "label": "operates_in",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_75",
+      "source": "d25",
+      "target": "d2",
+      "type": "member_of",
+      "directed": false,
+      "strength": 0.57,
+      "label": "member_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_76",
+      "source": "d26",
+      "target": "d27",
+      "type": "adjacent_to",
+      "directed": true,
+      "strength": 0.65,
+      "label": "adjacent_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_77",
+      "source": "d26",
+      "target": "d28",
+      "type": "partner_of",
+      "directed": false,
+      "strength": 0.57,
+      "label": "partner_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_78",
+      "source": "d26",
+      "target": "d3",
+      "type": "member_of",
+      "directed": false,
+      "strength": 0.46,
+      "label": "member_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_79",
+      "source": "d27",
+      "target": "d28",
+      "type": "partner_of",
+      "directed": true,
+      "strength": 0.18,
+      "label": "partner_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_80",
+      "source": "d27",
+      "target": "d29",
+      "type": "channel_to",
+      "directed": true,
+      "strength": 0.37,
+      "label": "channel_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_81",
+      "source": "d27",
+      "target": "d4",
+      "type": "member_of",
+      "directed": true,
+      "strength": 0.85,
+      "label": "member_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_82",
+      "source": "d28",
+      "target": "d29",
+      "type": "collaborates_with",
+      "directed": false,
+      "strength": 0.45,
+      "label": "collaborates_with",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_83",
+      "source": "d28",
+      "target": "d30",
+      "type": "partner_of",
+      "directed": false,
+      "strength": 0.33,
+      "label": "partner_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_84",
+      "source": "d28",
+      "target": "d5",
+      "type": "collaborates_with",
+      "directed": false,
+      "strength": 0.59,
+      "label": "collaborates_with",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_85",
+      "source": "d29",
+      "target": "d30",
+      "type": "partner_of",
+      "directed": true,
+      "strength": 0.18,
+      "label": "partner_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_86",
+      "source": "d29",
+      "target": "d1",
+      "type": "collaborates_with",
+      "directed": false,
+      "strength": 0.65,
+      "label": "collaborates_with",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_87",
+      "source": "d29",
+      "target": "d6",
+      "type": "member_of",
+      "directed": true,
+      "strength": 0.21,
+      "label": "member_of",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_88",
+      "source": "d30",
+      "target": "d1",
+      "type": "operates_in",
+      "directed": false,
+      "strength": 0.92,
+      "label": "operates_in",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "medium"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_89",
+      "source": "d30",
+      "target": "d2",
+      "type": "adjacent_to",
+      "directed": true,
+      "strength": 0.43,
+      "label": "adjacent_to",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "high"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    },
+    {
+      "id": "edge_90",
+      "source": "d30",
+      "target": "d7",
+      "type": "collaborates_with",
+      "directed": false,
+      "strength": 0.31,
+      "label": "collaborates_with",
+      "attributes": {
+        "notes": [],
+        "confidence_level": "low"
+      },
+      "tags": [
+        "fixture",
+        "dense"
+      ],
+      "source_refs": []
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "description": "Dense graph overview.",
+      "node_filters": [],
+      "edge_filters": [],
+      "style": {
+        "node_color_by": "buyer_type",
+        "node_size_by": "scores.commercial_attractiveness",
+        "node_shape_by": "type",
+        "label_mode": "focused",
+        "edge_visibility": "strong_only",
+        "show_legend": true,
+        "show_geo_overlay": false
+      },
+      "defaults": {
+        "focus_hops": 1,
+        "show_profile_on_click": true,
+        "hide_weak_edges_below": 0.35
+      }
+    }
+  ],
+  "layout_presets": [],
+  "source_refs": []
+}

@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "project_id": "sparse-graph",
+    "title": "Sparse Graph Fixture",
+    "description": "Sparse graph fixture for rendering and interaction tests.",
+    "version": "0.1.0",
+    "updated_at": "2026-04-22",
+    "default_view_id": "overview",
+    "locale": "en",
+    "corridor_description": "Sparse graph test fixture."
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "label": "Actor 1",
+      "type": "organization",
+      "buyer_type": "private",
+      "sector": "energy",
+      "subsector": "services",
+      "location": {"municipality": "Eigersund", "zone": "south"},
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "low",
+        "ai_relevance": "low",
+        "software_relevance": "medium",
+        "product_relevance": "low",
+        "likely_needs": ["software_modernization"],
+        "likely_buying_modes": ["specialist"],
+        "opportunity_band": "tier_4",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Sparse node 1.",
+        "why_it_matters": "Fixture node for sparse rendering.",
+        "relevant_to_olavstoppen": "Low-to-medium relevance example.",
+        "likely_sponsor_roles": ["operations_lead"],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 48,
+        "short_term_opportunity": 38,
+        "access_difficulty": 18,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": ["fixture"],
+      "source_refs": []
+    },
+    {
+      "id": "n2",
+      "label": "Actor 2",
+      "type": "organization",
+      "buyer_type": "growth",
+      "sector": "software",
+      "subsector": "product_company",
+      "location": {"municipality": "Time", "zone": "south_jaeren"},
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "high",
+        "ai_relevance": "medium",
+        "software_relevance": "high",
+        "product_relevance": "high",
+        "likely_needs": ["product_development"],
+        "likely_buying_modes": ["pod"],
+        "opportunity_band": "tier_1",
+        "relationship_status": "warm"
+      },
+      "profile": {
+        "summary": "Sparse node 2.",
+        "why_it_matters": "Fixture node for growth-company behavior.",
+        "relevant_to_olavstoppen": "Good growth-buyer example.",
+        "likely_sponsor_roles": ["cpo"],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 72,
+        "short_term_opportunity": 64,
+        "access_difficulty": 22,
+        "confidence_level": "high",
+        "score_date": "2026-04-22"
+      },
+      "tags": ["fixture"],
+      "source_refs": []
+    },
+    {
+      "id": "n3",
+      "label": "Actor 3",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "public_services",
+      "subsector": "municipality",
+      "location": {"municipality": "Stavanger", "zone": "core"},
+      "attributes": {
+        "size_band": "large",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "high",
+        "ai_relevance": "medium",
+        "software_relevance": "medium",
+        "product_relevance": "low",
+        "likely_needs": ["service_design"],
+        "likely_buying_modes": ["managed_delivery"],
+        "opportunity_band": "tier_2",
+        "relationship_status": "known"
+      },
+      "profile": {
+        "summary": "Sparse node 3.",
+        "why_it_matters": "Fixture node for public-buyer behavior.",
+        "relevant_to_olavstoppen": "Useful public-buyer example.",
+        "likely_sponsor_roles": ["digital_lead"],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 78,
+        "short_term_opportunity": 50,
+        "access_difficulty": 66,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": ["fixture"],
+      "source_refs": []
+    }
+  ],
+  "edges": [
+    {"id": "e12", "source": "n1", "target": "n2", "type": "adjacent_to", "directed": false, "strength": 0.2, "label": "adjacent_to", "attributes": {"notes": [], "confidence_level": "low"}, "tags": ["fixture"], "source_refs": []},
+    {"id": "e23", "source": "n2", "target": "n3", "type": "channel_to", "directed": true, "strength": 0.3, "label": "channel_to", "attributes": {"notes": [], "confidence_level": "medium"}, "tags": ["fixture"], "source_refs": []}
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "description": "Sparse overview.",
+      "node_filters": [],
+      "edge_filters": [],
+      "style": {
+        "node_color_by": "buyer_type",
+        "node_size_by": "scores.commercial_attractiveness",
+        "node_shape_by": "type",
+        "label_mode": "focused",
+        "edge_visibility": "all",
+        "show_legend": true,
+        "show_geo_overlay": false
+      },
+      "defaults": {
+        "focus_hops": 1,
+        "show_profile_on_click": true,
+        "hide_weak_edges_below": 0.2
+      }
+    }
+  ],
+  "layout_presets": [],
+  "source_refs": []
+}

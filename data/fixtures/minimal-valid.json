@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "project_id": "minimal-valid",
+    "title": "Minimal Valid Fixture",
+    "description": "Minimal valid fixture for schema and runtime checks.",
+    "version": "0.1.0",
+    "updated_at": "2026-04-22",
+    "default_view_id": "overview",
+    "locale": "en",
+    "corridor_description": "Minimal schema validation fixture."
+  },
+  "nodes": [
+    {
+      "id": "org_a",
+      "label": "Org A",
+      "type": "organization",
+      "buyer_type": "private",
+      "sector": "software",
+      "subsector": "saas",
+      "location": {"municipality": "Stavanger", "zone": "core"},
+      "attributes": {
+        "size_band": "small",
+        "ownership_type": "private",
+        "procurement_regime": "private",
+        "design_relevance": "medium",
+        "ai_relevance": "low",
+        "software_relevance": "high",
+        "product_relevance": "high",
+        "likely_needs": ["software_modernization"],
+        "likely_buying_modes": ["pod"],
+        "opportunity_band": "tier_2",
+        "relationship_status": "known"
+      },
+      "profile": {
+        "summary": "Small software actor.",
+        "why_it_matters": "Minimal fixture node.",
+        "relevant_to_olavstoppen": "Good smoke-test private actor.",
+        "likely_sponsor_roles": ["cto"],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 60,
+        "short_term_opportunity": 50,
+        "access_difficulty": 20,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": ["fixture"],
+      "source_refs": []
+    },
+    {
+      "id": "org_b",
+      "label": "Org B",
+      "type": "public_entity",
+      "buyer_type": "public",
+      "sector": "public_services",
+      "subsector": "municipality",
+      "location": {"municipality": "Sandnes", "zone": "core"},
+      "attributes": {
+        "size_band": "large",
+        "ownership_type": "public",
+        "procurement_regime": "public_procurement",
+        "design_relevance": "high",
+        "ai_relevance": "medium",
+        "software_relevance": "medium",
+        "product_relevance": "low",
+        "likely_needs": ["service_design"],
+        "likely_buying_modes": ["managed_delivery"],
+        "opportunity_band": "tier_3",
+        "relationship_status": "none"
+      },
+      "profile": {
+        "summary": "Public actor.",
+        "why_it_matters": "Minimal connected counterpart.",
+        "relevant_to_olavstoppen": "Useful to test public buyer treatment.",
+        "likely_sponsor_roles": ["digital_lead"],
+        "notes": []
+      },
+      "scores": {
+        "commercial_attractiveness": 70,
+        "short_term_opportunity": 45,
+        "access_difficulty": 60,
+        "confidence_level": "medium",
+        "score_date": "2026-04-22"
+      },
+      "tags": ["fixture"],
+      "source_refs": []
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_ab",
+      "source": "org_a",
+      "target": "org_b",
+      "type": "partner_of",
+      "directed": false,
+      "strength": 0.5,
+      "label": "partner_of",
+      "attributes": {"notes": [], "confidence_level": "medium"},
+      "tags": ["fixture"],
+      "source_refs": []
+    }
+  ],
+  "views": [
+    {
+      "id": "overview",
+      "label": "Overview",
+      "description": "Minimal overview view.",
+      "node_filters": [],
+      "edge_filters": [],
+      "style": {
+        "node_color_by": "buyer_type",
+        "node_size_by": "scores.commercial_attractiveness",
+        "node_shape_by": "type",
+        "label_mode": "focused",
+        "edge_visibility": "all",
+        "show_legend": true,
+        "show_geo_overlay": false
+      },
+      "defaults": {
+        "focus_hops": 1,
+        "show_profile_on_click": true,
+        "hide_weak_edges_below": 0.2
+      }
+    }
+  ],
+  "layout_presets": [],
+  "source_refs": []
+}

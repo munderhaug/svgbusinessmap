@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "project_id": "invalid-schema",
+    "title": "Invalid Schema Fixture",
+    "description": "Intentionally invalid fixture.",
+    "version": "0.1.0",
+    "updated_at": "2026-04-22"
+  },
+  "nodes": [
+    {
+      "id": "broken_node",
+      "type": "organization",
+      "buyer_type": "private",
+      "sector": "software",
+      "location": {"municipality": "Stavanger", "zone": "core"},
+      "attributes": {},
+      "profile": {},
+      "scores": {"confidence_level": "medium"},
+      "tags": [],
+      "source_refs": []
+    }
+  ],
+  "edges": [],
+  "views": [],
+  "layout_presets": [],
+  "source_refs": []
+}
